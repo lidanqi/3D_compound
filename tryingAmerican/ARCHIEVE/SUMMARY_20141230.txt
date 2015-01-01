@@ -1,0 +1,204 @@
+tried american using simplest projected-SOR
+almost convergint to reference values as grid gets bigger: except fot S=80
+
+
+#############
+### S=90 ####
+#############
+>> [a,b,c]=mainA(0.9,100);
+the process of obtaining matrix K,A completed, run time: 13.078571 s
+levels:  2  2  2, grid size: 17 * 9 * 9 = 1377
+The calculated option price is 0.106927 
+run time: 1.602506 seconds
+>> [a,b,c]=mainA(0.9,100,'level',[3 3 3]);
+the process of obtaining matrix K,A completed, run time: 80.598417 s
+levels:  3  3  3, grid size: 33 * 17 * 17 = 9537
+The calculated option price is 0.109063 
+run time: 88.349662 seconds
+>> [a,b,c]=mainA(0.9,100,'level',[4 4 3]);
+the process of obtaining matrix K,A completed, run time: 373.734540 s
+levels:  4  4  3, grid size: 65 * 33 * 17 = 36465
+The calculated option price is 0.109594 
+run time: 3416.885595 seconds
+>> true: 10.9820
+
+#############
+### S=100 ###
+#############
+>> [a,b,c]=mainA(1,100);
+the process of obtaining matrix K,A completed, run time: 13.135001 s
+levels:  2  2  2, grid size: 17 * 9 * 9 = 1377
+The calculated option price is 0.048906 
+run time: 1.619067 seconds
+>> [a,b,c]=mainA(1,100,'level',[3 3 3]);
+the process of obtaining matrix K,A completed, run time: 80.235516 s
+levels:  3  3  3, grid size: 33 * 17 * 17 = 9537
+The calculated option price is 0.053545 
+run time: 90.469893 seconds
+>> [a,b,c]=mainA(1,100,'level',[4 4 3]);
+the process of obtaining matrix K,A completed, run time: 371.674083 s
+levels:  4  4  3, grid size: 65 * 33 * 17 = 36465
+The calculated option price is 0.054562 
+run time: 1949.428336 seconds
+>> true: 5.4899
+
+
+#############
+### S=110 ###
+#############
+>> [a,b,c]=mainA(1.1,100);
+the process of obtaining matrix K,A completed, run time: 13.079799 s
+levels:  2  2  2, grid size: 17 * 9 * 9 = 1377
+The calculated option price is 0.025263 
+run time: 1.612135 seconds
+>>  [a,b,c]=mainA(1.1,100,'level',[3 3 3]);
+the process of obtaining matrix K,A completed, run time: 82.394150 s
+levels:  3  3  3, grid size: 33 * 17 * 17 = 9537
+The calculated option price is 0.025996 
+run time: 87.808825 seconds
+>> true: 2.6295
+
+
+
+#############
+### S=120 ###
+#############
+>> [a,b,c]=mainA(1.2,100);
+the process of obtaining matrix K,A completed, run time: 13.141859 s
+levels:  2  2  2, grid size: 17 * 9 * 9 = 1377
+The calculated option price is 0.012159 
+run time: 1.606940 seconds
+>> [a,b,c]=mainA(1.2,100,'level',[3 3 3]);
+the process of obtaining matrix K,A completed, run time: 80.751516 s
+levels:  3  3  3, grid size: 33 * 17 * 17 = 9537
+The calculated option price is 0.012382 
+run time: 90.088057 seconds
+
+>> true: 1.2388
+
+
+
+
+
+
+######################################
+####### compound american: FAIL ###### 
+######################################
+>> [a,b,c]=mainAC(1.2,100);
+the process of obtaining matrix K,A completed, run time: 22.944734 s
+Time: 20 ;Iterations: 6
+Time: 40 ;Iterations: 5
+Time: 60 ;Iterations: 5
+Time: 80 ;Iterations: 5
+Time: 100 ;Iterations: 5
+-------------------------
+Time: 20 ;Iterations: 5
+Time: 40 ;Iterations: 5
+levels:  2  2  2, grid size: 17 * 17 * 9 = 2601
+Stock price: 1.2000 Variance: 0.04 Interest: 0.04
+The calculated daughter option price is 0.012181 
+The calculated mother option price is 0.031304 
+location 1301
+Total run time: 36 seconds
+
+>> [a,b,c]=mainAC(1.2,100,'level',[3 3 3]);
+the process of obtaining matrix K,A completed, run time: 164.398173 s
+Time: 20 ;Iterations: 7
+Time: 40 ;Iterations: 7
+Time: 60 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 100 ;Iterations: 6
+-------------------------
+Time: 20 ;Iterations: 6
+Time: 40 ;Iterations: 6
+levels:  3  3  3, grid size: 33 * 33 * 17 = 18513
+Stock price: 1.2000 Variance: 0.04 Interest: 0.04
+The calculated daughter option price is 0.012388 
+The calculated mother option price is 0.030799 
+location 9257
+Total run time: 675 seconds
+
+>> [a,b,c]=mainAC(1.1,100);[a1,b1,c1]=mainAC(1.1,100,'level',[3 3 3]);
+the process of obtaining matrix K,A completed, run time: 22.780253 s
+Time: 20 ;Iterations: 6
+Time: 40 ;Iterations: 5
+Time: 60 ;Iterations: 5
+Time: 80 ;Iterations: 5
+Time: 100 ;Iterations: 5
+-------------------------
+Time: 20 ;Iterations: 5
+Time: 40 ;Iterations: 5
+levels:  2  2  2, grid size: 17 * 17 * 9 = 2601
+Stock price: 1.1000 Variance: 0.04 Interest: 0.04
+The calculated daughter option price is 0.025252 
+The calculated mother option price is 0.024654 
+location 1301
+Total run time: 35 seconds
+
+the process of obtaining matrix K,A completed, run time: 163.083862 s
+Time: 20 ;Iterations: 7
+Time: 40 ;Iterations: 7
+Time: 60 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 100 ;Iterations: 6
+-------------------------
+Time: 20 ;Iterations: 6
+Time: 40 ;Iterations: 6
+levels:  3  3  3, grid size: 33 * 33 * 17 = 18513
+Stock price: 1.1000 Variance: 0.04 Interest: 0.04
+The calculated daughter option price is 0.025993 
+The calculated mother option price is 0.024231 
+location 9257
+Total run time: 703 seconds
+
+>> [a,b,c]=mainAC(1,100);
+the process of obtaining matrix K,A completed, run time: 23.051041 s
+Time: 20 ;Iterations: 6
+Time: 40 ;Iterations: 5
+Time: 60 ;Iterations: 5
+Time: 80 ;Iterations: 5
+Time: 100 ;Iterations: 5
+-------------------------
+Time: 20 ;Iterations: 5
+Time: 40 ;Iterations: 5
+levels:  2  2  2, grid size: 17 * 17 * 9 = 2601
+Stock price: 1.0000 Variance: 0.04 Interest: 0.04
+The calculated daughter option price is 0.048723 
+The calculated mother option price is 0.017089 
+location 1301
+Total run time: 36 seconds
+
+>> [a,b,c]=mainAC(0.9,100);
+the process of obtaining matrix K,A completed, run time: 23.028580 s
+Time: 20 ;Iterations: 6
+Time: 40 ;Iterations: 5
+Time: 60 ;Iterations: 5
+Time: 80 ;Iterations: 5
+Time: 100 ;Iterations: 5
+-------------------------
+Time: 20 ;Iterations: 5
+Time: 40 ;Iterations: 5
+levels:  2  2  2, grid size: 17 * 17 * 9 = 2601
+Stock price: 0.9000 Variance: 0.04 Interest: 0.04
+The calculated daughter option price is 0.106954 
+The calculated mother option price is 0.006963 
+location 1301
+Total run time: 36 seconds
+
+>> [a,b,c]=mainAC(0.8,100);
+the process of obtaining matrix K,A completed, run time: 22.874517 s
+Time: 20 ;Iterations: 6
+Time: 40 ;Iterations: 5
+Time: 60 ;Iterations: 5
+Time: 80 ;Iterations: 5
+Time: 100 ;Iterations: 5
+-------------------------
+Time: 20 ;Iterations: 5
+Time: 40 ;Iterations: 5
+levels:  2  2  2, grid size: 17 * 17 * 9 = 2601
+Stock price: 0.8000 Variance: 0.04 Interest: 0.04
+The calculated daughter option price is 0.200000 
+The calculated mother option price is 0.001730 
+location 1301
+Total run time: 37 seconds
+
