@@ -5,7 +5,7 @@
 function [result,est,conds] = main(S0,NT,varargin)
 tic
 
- c1 = 4;
+ c1 = 2;
  c2 = 2;
  c3 = 2;
  % ----------------------------------------------------------------------
@@ -32,8 +32,8 @@ w = p.Results.w;
 TD=1; KD=1;
 % define limits 
 Smax = 8*S0; Smin = 0*S0;
-vmax = 0.32; vmin = 0;
-rmax = 0.32; rmin = 0;
+vmax = 0.5; vmin = 0;
+rmax = 0.25; rmin = 0;
 
 % define variable: steps and vector
 hS = (Smax-Smin)/N1; Svec = Smin:hS:Smax;
@@ -113,10 +113,11 @@ format long;
 % display information
 fprintf('\nlevels: %2.0f %2.0f %2.0f, grid size: %d * %d * %d = %d',l1,l2,l3,N1+1,N2+1,N3+1,matrix_size);
 fprintf('\nStock price: %3.4f Variance: %2.2f Interest: %2.2f',S0,v0,r0);
-% call functions to do interpolation
-est=interpolation(Svec',vvec',rvec',DD(:,1),S0,v0,r0);
+% display result
+est=interpolation(Svec,vvec,rvec,DD(:,1),S0,v0,r0);
+% loc = locate_D(i,j,k);
 result = DD;
-fprintf('\nThe calculated option price is %6f \n',est);
+fprintf('\nThe calculated option price is %6f \n',est,loc);
 fprintf('run time: %f seconds\n\n',toc); 
 
 

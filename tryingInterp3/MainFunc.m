@@ -1,3 +1,4 @@
+%[estimation, details] = MainFunc(requiredlevel,S)
 function [estimation, details] = MainFunc(requiredlevel,S)
 tic
 sums=zeros(3,1);
