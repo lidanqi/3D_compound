@@ -1,6 +1,12 @@
 %[estimation, details] = MainFunc(requiredlevel,S)
 function [estimation, details] = MainFunc(requiredlevel,S)
-tic
+% set benchmark for comparison:  POSR
+benchmark = [16.9512, 9.6856, 5.0227, 2.4618, 1.1774];
+benchmark_idx = floor((S-0.7)/0.1);
+benchmark = benchmark(benchmark_idx);
+% start
+timer = cputime;
+
 sums=zeros(3,1);
 dimension=3;
 details=[];
@@ -18,7 +24,7 @@ for i=0:level
         k=level-i-j;
         % number of points on this grid of combination (i,j,k)
         points = (2^i+1)*(2^j+1)*(2^k+1);
-        [~,temp] = main(S,500,'level',[i j k]);
+        [~,temp] = main(S,200,'level',[i j k]);
     %  temp = 0;
         details=[details;i j k temp];
         if isnan(temp)
@@ -39,4 +45,8 @@ end
 
 sums';
 estimation = sums(1) - 2*sums(2) + sums(3); 
-toc
+
+fprintf(['\nThe estimated American Mother Option price: %6f'  ...
+         '\n                              Benchmark   : %6f ' ...
+         '\n                          Total time spent: %4d s \n'],  ...
+        estimation*100,benchmark,cputime-timer);

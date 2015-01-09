@@ -4,14 +4,13 @@ sizeS = size(Svec,1);
 sizev = size(vvec,1);
 sizer = size(rvec,1); 
 [Y,X,Z] =meshgrid(vvec,Svec,rvec);
-[res] = mymesh(resultVect);
 
 % reshape result vector into 3-D
-
-resultVect = reshape(resultVect,[sizeS,sizev,sizer]);
+[res] = mymesh(resultVect);
 
 % estimation = interp3( X,Y,Z,resultVect ,S,v,r);
-F = griddedInterpolant(X,Y,Z,res,'spline');
+% F = griddedInterpolant(X,Y,Z,res,'cubic');
+F = griddedInterpolant(X,Y,Z,res,'linear');
 estimation = F(S,v,r);
 % estimation = interp3(x,y,z, res, S,v,r); 
 

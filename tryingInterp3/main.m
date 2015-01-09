@@ -6,8 +6,8 @@ function [result,est,conds] = main(S0,NT,varargin)
 tic
 
  c1 = 4;
- c2 = 2;
- c3 = 2;
+ c2 = 4;
+ c3 = 4;
  % ----------------------------------------------------------------------
  v0 = 0.04;
  r0 = 0.04;
@@ -31,9 +31,9 @@ w = p.Results.w;
 % strike price, time to maturity
 TD=1; KD=1;
 % define limits 
-Smax = 8*S0; Smin = 0*S0;
-vmax = 0.32; vmin = 0;
-rmax = 0.32; rmin = 0;
+Smax = 4; Smin = 0*S0;
+vmax = 0.25; vmin = 0;
+rmax = 0.1; rmin = 0;
 
 % define variable: steps and vector
 hS = (Smax-Smin)/N1; Svec = Smin:hS:Smax;
@@ -53,7 +53,7 @@ for iii=1:N1+1
 end
 
 % K matrix( Komogrov Operator )
-K = generate_sym_K(N1,N2,N3,S0);
+K = generate_sym_K(N1,N2,N3,S0,[Smax,vmax,rmax]);
 save('K.mat', 'K');      
 R = get_R;
 A = sparse(K-diag(R));
@@ -116,6 +116,7 @@ fprintf('\nStock price: %3.4f Variance: %2.2f Interest: %2.2f',S0,v0,r0);
 % call functions to do interpolation
 est=interpolation(Svec',vvec',rvec',DD(:,1),S0,v0,r0);
 result = DD;
+DD(locate_D(N1/4+1,N2/2+1,N3/2+1),1);
 fprintf('\nThe calculated option price is %6f \n',est);
 fprintf('run time: %f seconds\n\n',toc); 
 

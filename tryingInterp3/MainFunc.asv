@@ -1,12 +1,12 @@
-% sparse grid combination step
-% American option
-function [estimation, details] = MainFuncA(requiredlevel,S)
+%[estimation, details] = MainFunc(requiredlevel,S)
+function [estimation, details] = MainFunc(requiredlevel,S)
 % set benchmark for comparison:  POSR
 benchmark = [19.9987, 10.9820, 5.4899, 2.6295, 1.2388];
 benchmark_idx = floor((S-0.7)/0.1);
 benchmark = benchmark(benchmark_idx);
 % start
 timer = cputime;
+
 sums=zeros(3,1);
 dimension=3;
 details=[];
@@ -24,7 +24,7 @@ for i=0:level
         k=level-i-j;
         % number of points on this grid of combination (i,j,k)
         points = (2^i+1)*(2^j+1)*(2^k+1);
-        [~,temp] = mainA(S,128,'level',[i j k]);
+        [~,temp] = main(S,200,'level',[i j k]);
     %  temp = 0;
         details=[details;i j k temp];
         if isnan(temp)
@@ -38,14 +38,11 @@ for i=0:level
 end
 sums(level_s)=sum(answers);
 
-
+% for printidx=1:size(list,1)
+%  fprintf('\n%5d %5d %5d %10d',list(printidx,1),list(printidx,2),list(printidx,3),list(printidx,4));
+% end
 end
 
 sums';
 estimation = sums(1) - 2*sums(2) + sums(3); 
-
-fprintf(['\nThe estimated American Mother Option price: %6f'  ...
-         '\n                              Benchmark   : %6f ' ...
-         '\n                          Total time spent: %4 s\n'],  ...
-        estimation*100,benchmark,cputime-timer);
-
+fprintf('Total time spent: %d ', cputime-startTime);

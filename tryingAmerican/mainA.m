@@ -5,8 +5,8 @@
 function [result,est,conds] = mainA(S0,NT,varargin)
 tic
 
- c1 = 4;
- c2 = 2;
+ c1 = 8;
+ c2 = 4;
  c3 = 2;
 
  max_itr  = 100;

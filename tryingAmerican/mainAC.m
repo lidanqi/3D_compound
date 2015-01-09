@@ -13,7 +13,7 @@ tic
 
  c1 = 4;
  c2 = 4;
- c3 = 2;
+ c3 = 4;
 
  max_itr  = 100;
  condition_number = zeros(4,2);
