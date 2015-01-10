@@ -31,9 +31,9 @@ w = p.Results.w;
 % strike price, time to maturity
 TD=1; KD=1;
 % define limits 
-Smax = 4; Smin = 0*S0;
-vmax = 0.25; vmin = 0;
-rmax = 0.1; rmin = 0;
+Smax = 8; Smin = 0*S0;
+vmax = 0.5; vmin = 0;
+rmax = 0.25; rmin = 0;
 
 % define variable: steps and vector
 hS = (Smax-Smin)/N1; Svec = Smin:hS:Smax;
