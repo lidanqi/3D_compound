@@ -9,8 +9,8 @@ sizer = size(rvec,1);
 [res] = mymesh(resultVect);
 
 % estimation = interp3( X,Y,Z,resultVect ,S,v,r);
-% F = griddedInterpolant(X,Y,Z,res,'cubic');
-F = griddedInterpolant(X,Y,Z,res,'linear');
+ F = griddedInterpolant(X,Y,Z,res,'cubic');
+% F = griddedInterpolant(X,Y,Z,res,'linear');
 estimation = F(S,v,r);
 % estimation = interp3(x,y,z, res, S,v,r); 
 
