@@ -31,8 +31,8 @@ w = p.Results.w;
 % strike price, time to maturity
 TD=1; KD=1;
 % define limits 
-Smax = 8; Smin = 0*S0;
-vmax = 0.5; vmin = 0;
+Smax = 4; Smin = 0;
+vmax = 0.25; vmin = 0;
 rmax = 0.25; rmin = 0;
 
 % define variable: steps and vector
@@ -53,8 +53,8 @@ for iii=1:N1+1
 end
 
 % K matrix( Komogrov Operator )
-K = generate_sym_K(N1,N2,N3,S0,[Smax,vmax,rmax]);
-save('K.mat', 'K');      
+K = generate_sym_K(N1,N2,N3,[Smax,vmax,rmax]);
+%save('K.mat', 'K');      
 R = get_R;
 A = sparse(K-diag(R));
 fprintf('the process of obtaining matrix K,A completed, run time: %f s',toc);
@@ -85,7 +85,7 @@ for l=1:NT
     % Solve LHS * D_new = RHS
     if (l==1 || l==4)
      condition_number(l,:)=[l condest(LHS)];
-     save(['LHS_' int2str(l) '.mat'],'LHS');
+ %    save(['LHS_' int2str(l) '.mat'],'LHS');
     end
         lower_LHS = -tril(LHS,-1);
         upper_LHS = -triu(LHS,1);
@@ -107,17 +107,17 @@ for l=1:NT
 end
 
 conds = condition_number([1 4],:);
+% interpolation to get results
+est=interpolation(Svec',vvec',rvec',DD(:,1),S0,v0,r0);
+result = DD;
 
 %% output result
 format long;
 % display information
-fprintf('\nlevels: %2.0f %2.0f %2.0f, grid size: %d * %d * %d = %d',l1,l2,l3,N1+1,N2+1,N3+1,matrix_size);
-fprintf('\nStock price: %3.4f Variance: %2.2f Interest: %2.2f',S0,v0,r0);
-% call functions to do interpolation
-est=interpolation(Svec',vvec',rvec',DD(:,1),S0,v0,r0);
-result = DD;
-DD(locate_D(N1/4+1,N2/2+1,N3/2+1),1);
-fprintf('\nThe calculated option price is %6f \n',est);
+fprintf('\nlevels: %2.0f %2.0f %2.0f, grid size: %d * %d * %d = %d\n',l1,l2,l3,N1+1,N2+1,N3+1,matrix_size);
+fprintf('Variance: %2.2f Interest: %2.2f\n',v0,r0);
+fprintf('Input Stock  Price: '); fprintf('%6g ',S0);fprintf('\n');
+fprintf('Estid Option Price: '); fprintf('%6g ',est); fprintf('\n');
 fprintf('run time: %f seconds\n\n',toc); 
 
 

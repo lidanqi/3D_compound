@@ -11,7 +11,11 @@ sizer = size(rvec,1);
 % estimation = interp3( X,Y,Z,resultVect ,S,v,r);
  F = griddedInterpolant(X,Y,Z,res,'cubic');
 % F = griddedInterpolant(X,Y,Z,res,'linear');
-estimation = F(S,v,r);
+numS = max(size(S,1),size(S,2));
+estimation = zeros(numS,1);
+for i=1:numS
+ estimation(i) = F(S(i),v,r);
+end
 % estimation = interp3(x,y,z, res, S,v,r); 
 
 
