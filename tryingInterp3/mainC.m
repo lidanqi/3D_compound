@@ -2,23 +2,23 @@
 % result would be D(0): daughter option price at time zero
 % adjusted for boundaries
 %% parameters:
-function [resultD,resultM,est,conds] = mainAC(S0,NT,varargin)
+function [resultD,resultM,est,conds] = mainC(S0,NT,varargin)
+start_time = cputime;
 tic
-
-if (mod(NT,2)~=0)
+ if (mod(NT,2)~=0)
      fprintf('timesteps must be even number');
      resultD=0;resultM=0;est=0;conds=0;
      return;
  end
 
- c1 = 8;
+ c1 = 4;
  c2 = 4;
- c3 = 2;
+ c3 = 4;
  % ----------------------------------------------------------------------
  v0 = 0.04;
  r0 = 0.04;
  % ----------------------------------------------------------------------
-
+ 
  max_itr  = 100;
  condition_number = zeros(4,2);
  p = inputParser;
@@ -72,9 +72,7 @@ start_time = cputime;
 %% solve the daughter option problem
 % ( I + theta * tau * A) * D(l+1) = ( I - (1-theta) * tau * A) * D(l) 
 % terminal condition
-global payoffVect;
-payoffVect = computePayoff;
-D_temp = payoffVect;
+D_temp = payoff;
 
 theta=1;
 I = eye(matrix_size);
@@ -96,12 +94,12 @@ for l=1:NT
     % Solve LHS * D_new = RHS
     if (l==1 || l==4)
      condition_number(l,:)=[l condest(LHS)];
-    % save(['LHS_D_' int2str(l) '.mat'],'LHS');
+ %    save(['LHS_D_' int2str(l) '.mat'],'LHS');
     end
         lower_LHS = -tril(LHS,-1);
         upper_LHS = -triu(LHS,1);
         diag_LHS = LHS + lower_LHS + upper_LHS;
-        [x,m]=solut_PSOR_D(diag_LHS,lower_LHS,upper_LHS,D_temp,RHS,w,max_itr);
+        [x,m]=solut_SOR(diag_LHS,lower_LHS,upper_LHS,D_temp,RHS,w,max_itr);
     D_new = x;
     if m==max_itr 
        % if not converging, quit the program
@@ -142,17 +140,15 @@ for l=1:nt
     % define for boundaries in S direction   
     [LHS,RHS] = define_boundaries_A(B,RHS,l,2);
     % ==========================================
-    % compute exercise value for mother options first: payoffVect_M
-    payoffVect_M = max(0,KM-DD(nt-l+1));
     % Solve LHS * D_new = RHS
     if (l==1 || l==4)
-     condition_number(l+3,:)=[l*100 condest(LHS)];
-   %  save(['LHS_M_' int2str(l) '.mat'],'LHS');
+     condition_number(l+1,:)=[l*100 condest(LHS)];
+     save(['LHS_M_' int2str(l) '.mat'],'LHS');
     end
         lower_LHS = -tril(LHS,-1);
         upper_LHS = -triu(LHS,1);
         diag_LHS = LHS + lower_LHS + upper_LHS;
-        [x,m]=solut_PSOR_M(diag_LHS,lower_LHS,upper_LHS,M_temp,RHS,w,max_itr,payoffVect_M);
+        [x,m]=solut_SOR(diag_LHS,lower_LHS,upper_LHS,M_temp,RHS,w,max_itr);
     M_new = x;
     if m==max_itr 
        % if not converging, quit the program
@@ -168,6 +164,10 @@ for l=1:nt
     M_temp = M_new;
 end
 
+
+
+
+
 % interpolation to get results
 est_D=interpolation(Svec',vvec',rvec',DD(:,1),S0,v0,r0);
 est_M=interpolation(Svec',vvec',rvec',MM(:,1),S0,v0,r0);
@@ -181,23 +181,6 @@ fprintf('Input Stock  Price: '); fprintf('%6g ',S0);fprintf('\n');
 fprintf('Estid D Option Price: '); fprintf('%6g ',est_D); fprintf('\n');
 fprintf('Estid M Option Price: '); fprintf('%6g ',est_M); fprintf('\n');
 fprintf('run time: %f seconds\n\n',cputime-start_time); 
-
-%% output result
-% format long;
-% i=floor(N1/2)+1;
-% j=floor(N2/2)+1;
-% k=floor(N3/2)+1;
-% % display information
-% fprintf('\nlevels: %2.0f %2.0f %2.0f, grid size: %d * %d * %d = %d',l1,l2,l3,N1+1,N2+1,N3+1,matrix_size);
-% fprintf('\nStock price: %3.4f Variance: %2.2f Interest: %2.2f',Smin+(i-1)*hS ,vmin+(j-1)*hv ,rmin+(k-1)*hr);
-% % display result
-% est_D=D_new(locate_D(i,j,k));
-% est_M=M_new(locate_D(i,j,k));
-% est=[est_D,est_M];
-% loc = locate_D(i,j,k);
-% fprintf('\nThe calculated daughter option price is %6f ',est_D);
-% fprintf('\nThe calculated mother option price is %6f \nlocation %d\n',est_M,loc);
-% fprintf('Total run time: %d seconds\n\n',floor(cputime - start_time)); 
 
 
 %% sub functions
@@ -255,7 +238,7 @@ fprintf('run time: %f seconds\n\n',cputime-start_time);
     end
 
 %   This function defines the payoff values of all points: (N1+1)*(N2+1)*(N3+1)
-    function prices = computePayoff()
+    function prices = payoff()
     % put option : max(0,KD-stock_price);
      prices = zeros(matrix_size,1);
         for index=1:N1+1
@@ -285,49 +268,18 @@ fprintf('run time: %f seconds\n\n',cputime-start_time);
 end
 
 
-%% PSOR daughter
+%% SOR 
     % This function computes LHS*x = RHS. 
     % left hand side: d,l,u
     % right hand side: b
     % relaxation factor: W
-    function [x,m]=solut_PSOR_D(d,l,u,x0,b,W,max_itr)
-        global payoffVect
+    function [x,m]=solut_SOR(d,l,u,x0,b,W,max_itr)
         m=0; %number of steps taken in the SOR method
         iteration_condition = 1; 
         x=0;
        try
         while iteration_condition && m<max_itr % do the iteration
-           x1=max((d-W*l)\(((1-W)*d+W*u)*x0+W*b),payoffVect);
-           if norm(x1-x0,inf) < 1*10^(-6) %iteration condition
-               iteration_condition = 0;
-               x = x1;
-               m = m+1; %count the iteration steps
-           else
-               x0 = x1;
-               m = m+1 ;%count the iteration steps
-           end
-        end 
-        if x==0
-            x = x1;
-        end
-       catch exception
-           % do nothing
-       end
-    end
-    
-    
-    %% PSOR mother
-    % This function computes LHS*x = RHS. 
-    % left hand side: d,l,u
-    % right hand side: b
-    % relaxation factor: W
-    function [x,m]=solut_PSOR_M(d,l,u,x0,b,W,max_itr,payoffVect_M)
-        m=0; %number of steps taken in the SOR method
-        iteration_condition = 1; 
-        x=0;
-       try
-        while iteration_condition && m<max_itr % do the iteration
-           x1=max((d-W*l)\(((1-W)*d+W*u)*x0+W*b),payoffVect_M);
+           x1=(d-W*l)\(((1-W)*d+W*u)*x0+W*b);
            if norm(x1-x0,inf) < 1*10^(-6) %iteration condition
                iteration_condition = 0;
                x = x1;

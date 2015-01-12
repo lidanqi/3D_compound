@@ -1,11 +1,15 @@
 % This fuction generate the Kolmogrov Matrix
-% inputs: N1,N2,N3,S0
+% inputs: N1,N2,N3,maxValues
 % Other parameters are hard-coded inside the function
-function output = generate_sym_K(N1,N2,N3,S0)
+function output = generate_sym_K(N1,N2,N3,maxValues)
 
-Smax = 2*S0; Smin = 0*S0;
-vmax = 0.08; vmin = 0;
-rmax = 0.08; rmin = 0;
+Smax = maxValues(1);
+vmax = maxValues(2);
+rmax = maxValues(3); 
+
+ Smin = 0;
+ vmin = 0;
+ rmin = 0;
 % define parameters( globalize so can be used globally)
 global theta_v k_v sig_v mu_v;
 global theta_r k_r sig_r mu_r;

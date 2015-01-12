@@ -8,7 +8,11 @@ tic
  c1 = 8;
  c2 = 4;
  c3 = 2;
-
+ % ----------------------------------------------------------------------
+ v0 = 0.04;
+ r0 = 0.04;
+ % ----------------------------------------------------------------------
+ 
  max_itr  = 100;
  condition_number = zeros(4,2);
  p = inputParser;
@@ -27,9 +31,9 @@ w = p.Results.w;
 % strike price, time to maturity
 TD=1; KD=1;
 % define limits 
-Smax = 2*S0; Smin = 0*S0;
-vmax = 0.08; vmin = 0;
-rmax = 0.08; rmin = 0;
+Smax = 4; Smin = 0;
+vmax = 0.25; vmin = 0;
+rmax = 0.25; rmin = 0;
 
 % define variable: steps and vector
 hS = (Smax-Smin)/N1; Svec = Smin:hS:Smax;
@@ -49,12 +53,13 @@ for iii=1:N1+1
 end
 
 % K matrix( Komogrov Operator )
-K = generate_sym_K(N1,N2,N3,S0);
-save('K.mat', 'K');      
+K = generate_sym_K(N1,N2,N3,[Smax,vmax,rmax]);
+%save('K.mat', 'K');      
 R = get_R;
 A = sparse(K-diag(R));
 fprintf('the process of obtaining matrix K,A completed, run time: %f s',toc);
 
+start_time=cputime;
 %% solve the problem
 % ( I + theta * tau * A) * D(l+1) = ( I - (1-theta) * tau * A) * D(l) 
 % terminal condition
@@ -105,21 +110,18 @@ for l=1:NT
 end
 
 conds = condition_number([1 4],:);
+% interpolation to get results
+est=interpolation(Svec',vvec',rvec',DD(:,1),S0,v0,r0);
+result = DD;
 
 %% output result
 format long;
-i=floor(N1/2)+1;
-j=floor(N2/2)+1;
-k=floor(N3/2)+1;
 % display information
-fprintf('\nlevels: %2.0f %2.0f %2.0f, grid size: %d * %d * %d = %d',l1,l2,l3,N1+1,N2+1,N3+1,matrix_size);
-fprintf('\nStock price: %3.4f Variance: %2.2f Interest: %2.2f',Smin+(i-1)*hS ,vmin+(j-1)*hv ,rmin+(k-1)*hr);
-% display result
-est=D_new(locate_D(i,j,k));
-loc = locate_D(i,j,k);
-result = DD;
-fprintf('\nThe calculated option price is %6f \nlocation %d\n',est,loc);
-fprintf('run time: %f seconds\n\n',toc); 
+fprintf('\nlevels: %2.0f %2.0f %2.0f, grid size: %d * %d * %d = %d\n',l1,l2,l3,N1+1,N2+1,N3+1,matrix_size);
+fprintf('Variance: %2.2f Interest: %2.2f\n',v0,r0);
+fprintf('Input Stock  Price: '); fprintf('%6g ',S0);fprintf('\n');
+fprintf('Estid Option Price: '); fprintf('%6g ',est); fprintf('\n');
+fprintf('run time: %f seconds\n\n',cputime-start_time); 
 
 
 %% sub functions
