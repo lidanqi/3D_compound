@@ -26,7 +26,7 @@ for i=0:level
         % number of points on this grid of combination (i,j,k)
         points = (2^i+1)*(2^j+1)*(2^k+1);
         fprintf('levels: %d %d %d \n', i,j,k);
-        [~,~,est,~] = mainAC(S,128,'level',[i j k]);
+        [~,~,est,~] = mainAC(S,200,'level',[i j k]);
         tempA = est(:,1);
         tempAC = est(:,2);
     %  temp = 0;

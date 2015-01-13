@@ -19,7 +19,7 @@ tic
  r0 = 0.04;
  % ----------------------------------------------------------------------
  
- max_itr  = 100;
+ max_itr  = 1000;
  condition_number = zeros(4,2);
  p = inputParser;
  p.addParamValue('level', [2 2 2]);
@@ -80,6 +80,9 @@ DD = zeros(matrix_size,NT+1);
 DD(:,NT+1) = D_temp;
 D_new = zeros(matrix_size,1);
 
+saved=0;
+if (saved==0)
+
 for l=1:NT
     if (l==4)
          theta=0.5;
@@ -114,7 +117,10 @@ for l=1:NT
     DD(:,NT-l+1)=D_new;
     D_temp = D_new;
 end
-
+else
+    archD = load('DD.mat');
+    DD = archD.resultD;
+end
 conds = condition_number([1 4],:);
 
 % daughter option price at maturity for mother option
