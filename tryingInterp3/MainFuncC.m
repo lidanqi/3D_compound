@@ -1,6 +1,6 @@
 % sparse grid combination step
 % Compound Option
-function [estimation, details] = MainFuncC(requiredlevel)
+function [estimation, details,timespent] = MainFuncC(requiredlevel)
 % set benchmark for comparison: MC + POSR
 S = [0.8, 0.9, 1, 1.1, 1.2];
 benchmark = [16.9512, 9.6856, 5.0227, 2.4618, 1.1774];
@@ -26,7 +26,16 @@ for i=0:level
         % number of points on this grid of combination (i,j,k)
         points = (2^i+1)*(2^j+1)*(2^k+1);
         fprintf('levels: %d %d %d \n', i,j,k);
-        [~,~,est,~] = mainC(S,128,'level',[i j k]);
+        % generate a file containing estimation 
+        filename=[num2str(i) num2str(j) num2str(k) '.mat'];
+        IScomputed = exist(filename);
+        if (IScomputed==0)
+            [~,~,est,~] = mainC(S,128,'level',[i j k]);
+            save(filename,'est');
+        else
+            loadedEst = load(filename);
+            est=loadedEst.est;
+        end
         temp = est(:,1);
         tempC = est(:,2);
     %  temp = 0;
@@ -44,9 +53,9 @@ sums(level_s,:)=sum(answers);
 end
 
 sums';
-estimation = sums(1,:) - 2*sums(2,:) + sums(3,:); 
-estimation_A = estimation(1:5)*100;
-estimation_AC = estimation(6:10)*100;
+estimation = (sums(1,:) - 2*sums(2,:) + sums(3,:))*100; 
+estimation_A = estimation(1:5);
+estimation_AC = estimation(6:10);
 
 fprintf('=====================================================================');
 fprintf('\nEstid Daughter Option price: '); fprintf('%6g ',estimation_A); 
@@ -54,5 +63,6 @@ fprintf('\n               Benchmark   : '); fprintf('%6g ',benchmark);
 fprintf('\n---------------------------------------------------------------------');
 fprintf('\nEstid Mother Option price: '); fprintf('%6g ',estimation_AC); 
 fprintf('\n               Benchmark   : '); fprintf('%6g ',benchmark_C);
-fprintf('\nTotal time spent: %4d s \n',cputime-timer);
+timespent = cputime-timer;
+fprintf('\nTotal time spent: %4d s \n',timespent);
 

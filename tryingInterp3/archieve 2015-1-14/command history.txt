@@ -1,0 +1,3505 @@
+>> [esti,details]=MainFunc(1);
+levels: 0 0 1 
+the process of obtaining matrix K,A completed, run time: 4.431519 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  1, grid size: 5 * 5 * 9 = 225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110924 0.0483506 -0.00452041 -0.0432995 -0.0655478 
+run time: 0.152015 seconds
+
+levels: 0 1 0 
+the process of obtaining matrix K,A completed, run time: 4.471479 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  0, grid size: 5 * 9 * 5 = 225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.11098 0.0484064 -0.00446573 -0.0432482 -0.0655027 
+run time: 0.150615 seconds
+
+levels: 1 0 0 
+the process of obtaining matrix K,A completed, run time: 4.437729 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  0, grid size: 9 * 5 * 5 = 225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155751 0.0703656 0.00913163 -0.020933 -0.0261897 
+run time: 0.133747 seconds
+
+levels: 0 0 2 
+the process of obtaining matrix K,A completed, run time: 5.845100 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  2, grid size: 5 * 5 * 17 = 425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483531 -0.0045178 -0.0432968 -0.0655452 
+run time: 0.497384 seconds
+
+levels: 0 1 1 
+the process of obtaining matrix K,A completed, run time: 5.756070 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  1, grid size: 5 * 9 * 9 = 405
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483668 -0.00450623 -0.0432889 -0.0655431 
+run time: 0.448693 seconds
+
+levels: 0 2 0 
+the process of obtaining matrix K,A completed, run time: 5.905921 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  0, grid size: 5 * 17 * 5 = 425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110978 0.0484053 -0.00446678 -0.043249 -0.0655032 
+run time: 0.485988 seconds
+
+levels: 1 0 1 
+the process of obtaining matrix K,A completed, run time: 5.758041 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  1, grid size: 9 * 5 * 9 = 405
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155695 0.0703086 0.00907428 -0.0209894 -0.026244 
+run time: 0.431726 seconds
+
+levels: 1 1 0 
+the process of obtaining matrix K,A completed, run time: 5.755764 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  0, grid size: 9 * 9 * 5 = 405
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155848 0.0704855 0.00924843 -0.0208594 -0.0261912 
+run time: 0.426441 seconds
+
+levels: 2 0 0 
+the process of obtaining matrix K,A completed, run time: 5.874747 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  0, grid size: 17 * 5 * 5 = 425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172182 0.0887568 0.0284237 0.00708019 0.00751156 
+run time: 0.445529 seconds
+
+levels: 0 0 3 
+the process of obtaining matrix K,A completed, run time: 8.860785 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  3, grid size: 5 * 5 * 33 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.048353 -0.00451792 -0.043297 -0.0655454 
+run time: 1.364508 seconds
+
+levels: 0 1 2 
+the process of obtaining matrix K,A completed, run time: 8.346629 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  2, grid size: 5 * 9 * 17 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110944 0.0483694 -0.00450362 -0.0432863 -0.0655405 
+run time: 1.223157 seconds
+
+levels: 0 2 1 
+the process of obtaining matrix K,A completed, run time: 8.565906 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  1, grid size: 5 * 17 * 9 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.11094 0.0483657 -0.00450727 -0.0432898 -0.0655436 
+run time: 1.416340 seconds
+
+levels: 0 3 0 
+the process of obtaining matrix K,A completed, run time: 8.992031 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  0, grid size: 5 * 33 * 5 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110977 0.0484042 -0.00446777 -0.0432498 -0.0655038 
+run time: 1.408813 seconds
+
+levels: 1 0 2 
+the process of obtaining matrix K,A completed, run time: 8.511680 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  2, grid size: 9 * 5 * 17 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155699 0.0703123 0.00907798 -0.0209858 -0.0262406 
+run time: 1.173766 seconds
+
+levels: 1 1 1 
+the process of obtaining matrix K,A completed, run time: 8.287310 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  1, grid size: 9 * 9 * 9 = 729
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155793 0.0704284 0.0091911 -0.0209158 -0.0262455 
+run time: 1.088670 seconds
+
+levels: 1 2 0 
+the process of obtaining matrix K,A completed, run time: 8.621475 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  0, grid size: 9 * 17 * 5 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155838 0.0704701 0.00923195 -0.0208716 -0.0261948 
+run time: 1.157393 seconds
+
+levels: 2 0 1 
+the process of obtaining matrix K,A completed, run time: 8.473976 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  1, grid size: 17 * 5 * 9 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172124 0.0886802 0.0283344 0.00698951 0.00742685 
+run time: 1.129201 seconds
+
+levels: 2 1 0 
+the process of obtaining matrix K,A completed, run time: 8.580298 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  0, grid size: 17 * 9 * 5 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172164 0.0895095 0.0295563 0.00748672 0.00684187 
+run time: 1.142045 seconds
+
+levels: 3 0 0 
+the process of obtaining matrix K,A completed, run time: 8.852812 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  0, grid size: 33 * 5 * 5 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170581 0.0935578 0.0409467 0.022583 0.0120343 
+run time: 1.268655 seconds
+
+The estimated Option price: 17.0496 9.4221 4.1976 2.28894 1.12789 
+              Benchmark   : 16.9512 9.6856 5.0227 2.4618 1.1774 
+          Total time spent: 1.659688e+02 s 
+>> [esti,details]=MainFunc(1);
+levels: 0 0 1 
+the process of obtaining matrix K,A completed, run time: 4.414143 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  1, grid size: 5 * 5 * 9 = 225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483531 -0.0045178 -0.0432968 -0.0655452 
+run time: 0.149515 seconds
+
+levels: 0 1 0 
+the process of obtaining matrix K,A completed, run time: 4.439522 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  0, grid size: 5 * 9 * 5 = 225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483669 -0.00450619 -0.0432889 -0.065543 
+run time: 0.151083 seconds
+
+levels: 1 0 0 
+the process of obtaining matrix K,A completed, run time: 4.445367 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  0, grid size: 9 * 5 * 5 = 225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155695 0.0703086 0.00907433 -0.0209893 -0.0262439 
+run time: 0.134096 seconds
+
+levels: 0 0 2 
+the process of obtaining matrix K,A completed, run time: 5.913126 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  2, grid size: 5 * 5 * 17 = 425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.048353 -0.00451792 -0.043297 -0.0655454 
+run time: 0.487198 seconds
+
+levels: 0 1 1 
+the process of obtaining matrix K,A completed, run time: 5.767849 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  1, grid size: 5 * 9 * 9 = 405
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110944 0.0483694 -0.00450362 -0.0432863 -0.0655405 
+run time: 0.457569 seconds
+
+levels: 0 2 0 
+the process of obtaining matrix K,A completed, run time: 5.916102 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  0, grid size: 5 * 17 * 5 = 425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.11094 0.0483657 -0.00450724 -0.0432898 -0.0655436 
+run time: 0.499471 seconds
+
+levels: 1 0 1 
+the process of obtaining matrix K,A completed, run time: 5.788776 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  1, grid size: 9 * 5 * 9 = 405
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155699 0.0703123 0.00907798 -0.0209858 -0.0262406 
+run time: 0.428466 seconds
+
+levels: 1 1 0 
+the process of obtaining matrix K,A completed, run time: 5.809552 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  0, grid size: 9 * 9 * 5 = 405
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155793 0.0704285 0.00919114 -0.0209158 -0.0262454 
+run time: 0.435587 seconds
+
+levels: 2 0 0 
+the process of obtaining matrix K,A completed, run time: 6.012474 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  0, grid size: 17 * 5 * 5 = 425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172124 0.0886803 0.0283344 0.00698956 0.00742689 
+run time: 0.455998 seconds
+
+levels: 0 0 3 
+the process of obtaining matrix K,A completed, run time: 8.859425 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  3, grid size: 5 * 5 * 33 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483528 -0.00451811 -0.0432971 -0.0655455 
+run time: 1.352809 seconds
+
+levels: 0 1 2 
+the process of obtaining matrix K,A completed, run time: 8.438979 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  2, grid size: 5 * 9 * 17 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110944 0.0483692 -0.00450374 -0.0432864 -0.0655406 
+run time: 1.199267 seconds
+
+levels: 0 2 1 
+the process of obtaining matrix K,A completed, run time: 8.474613 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  1, grid size: 5 * 17 * 9 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110943 0.0483682 -0.00450466 -0.0432872 -0.065541 
+run time: 1.203629 seconds
+
+levels: 0 3 0 
+the process of obtaining matrix K,A completed, run time: 8.876227 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  0, grid size: 5 * 33 * 5 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110939 0.0483647 -0.00450823 -0.0432906 -0.0655441 
+run time: 1.435826 seconds
+
+levels: 1 0 2 
+the process of obtaining matrix K,A completed, run time: 8.563816 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  2, grid size: 9 * 5 * 17 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155698 0.0703122 0.00907794 -0.0209858 -0.0262406 
+run time: 1.132093 seconds
+
+levels: 1 1 1 
+the process of obtaining matrix K,A completed, run time: 8.300853 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  1, grid size: 9 * 9 * 9 = 729
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155796 0.0704321 0.00919479 -0.0209123 -0.0262421 
+run time: 1.051749 seconds
+
+levels: 1 2 0 
+the process of obtaining matrix K,A completed, run time: 8.507718 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  0, grid size: 9 * 17 * 5 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155782 0.0704131 0.00917467 -0.0209279 -0.0262491 
+run time: 1.153186 seconds
+
+levels: 2 0 1 
+the process of obtaining matrix K,A completed, run time: 8.440218 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  1, grid size: 17 * 5 * 9 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172128 0.0886852 0.0283399 0.0069949 0.00743162 
+run time: 1.114123 seconds
+
+levels: 2 1 0 
+the process of obtaining matrix K,A completed, run time: 8.473452 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  0, grid size: 17 * 9 * 5 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172105 0.0894332 0.0294675 0.00739663 0.00675765 
+run time: 1.118638 seconds
+
+levels: 3 0 0 
+the process of obtaining matrix K,A completed, run time: 8.933905 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  0, grid size: 33 * 5 * 5 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170546 0.0934768 0.040807 0.0224419 0.0119358 
+run time: 1.253684 seconds
+
+The estimated Option price: 17.0519 9.42179 4.19279 2.28412 1.12669 
+              Benchmark   : 16.9512 9.6856 5.0227 2.4618 1.1774 
+          Total time spent: 1.653438e+02 s 
+>> [esti,details]=MainFunc(2);
+levels: 0 0 2 
+the process of obtaining matrix K,A completed, run time: 5.903126 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  2, grid size: 5 * 5 * 17 = 425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483531 -0.0045178 -0.0432968 -0.0655452 
+run time: 0.521746 seconds
+
+levels: 0 1 1 
+the process of obtaining matrix K,A completed, run time: 5.836517 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  1, grid size: 5 * 9 * 9 = 405
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483668 -0.00450623 -0.0432889 -0.0655431 
+run time: 0.451105 seconds
+
+levels: 0 2 0 
+the process of obtaining matrix K,A completed, run time: 5.926413 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  0, grid size: 5 * 17 * 5 = 425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110978 0.0484053 -0.00446678 -0.043249 -0.0655032 
+run time: 0.488453 seconds
+
+levels: 1 0 1 
+the process of obtaining matrix K,A completed, run time: 5.778204 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  1, grid size: 9 * 5 * 9 = 405
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155695 0.0703086 0.00907428 -0.0209894 -0.026244 
+run time: 0.428053 seconds
+
+levels: 1 1 0 
+the process of obtaining matrix K,A completed, run time: 5.757589 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  0, grid size: 9 * 9 * 5 = 405
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155848 0.0704855 0.00924843 -0.0208594 -0.0261912 
+run time: 0.419566 seconds
+
+levels: 2 0 0 
+the process of obtaining matrix K,A completed, run time: 5.882883 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  0, grid size: 17 * 5 * 5 = 425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172182 0.0887568 0.0284237 0.00708019 0.00751156 
+run time: 0.455225 seconds
+
+levels: 0 0 3 
+the process of obtaining matrix K,A completed, run time: 8.886451 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  3, grid size: 5 * 5 * 33 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.048353 -0.00451792 -0.043297 -0.0655454 
+run time: 1.421659 seconds
+
+levels: 0 1 2 
+the process of obtaining matrix K,A completed, run time: 8.552136 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  2, grid size: 5 * 9 * 17 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110944 0.0483694 -0.00450362 -0.0432863 -0.0655405 
+run time: 1.234091 seconds
+
+levels: 0 2 1 
+the process of obtaining matrix K,A completed, run time: 8.589611 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  1, grid size: 5 * 17 * 9 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.11094 0.0483657 -0.00450727 -0.0432898 -0.0655436 
+run time: 1.225543 seconds
+
+levels: 0 3 0 
+the process of obtaining matrix K,A completed, run time: 8.897015 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  0, grid size: 5 * 33 * 5 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110977 0.0484042 -0.00446777 -0.0432498 -0.0655038 
+run time: 1.391701 seconds
+
+levels: 1 0 2 
+the process of obtaining matrix K,A completed, run time: 8.494077 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  2, grid size: 9 * 5 * 17 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155699 0.0703123 0.00907798 -0.0209858 -0.0262406 
+run time: 1.183200 seconds
+
+levels: 1 1 1 
+the process of obtaining matrix K,A completed, run time: 8.300048 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  1, grid size: 9 * 9 * 9 = 729
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155793 0.0704284 0.0091911 -0.0209158 -0.0262455 
+run time: 1.071924 seconds
+
+levels: 1 2 0 
+the process of obtaining matrix K,A completed, run time: 8.630330 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  0, grid size: 9 * 17 * 5 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155838 0.0704701 0.00923195 -0.0208716 -0.0261948 
+run time: 1.161398 seconds
+
+levels: 2 0 1 
+the process of obtaining matrix K,A completed, run time: 8.499201 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  1, grid size: 17 * 5 * 9 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172124 0.0886802 0.0283344 0.00698951 0.00742685 
+run time: 1.127110 seconds
+
+levels: 2 1 0 
+the process of obtaining matrix K,A completed, run time: 8.556469 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  0, grid size: 17 * 9 * 5 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172164 0.0895095 0.0295563 0.00748672 0.00684187 
+run time: 1.141945 seconds
+
+levels: 3 0 0 
+the process of obtaining matrix K,A completed, run time: 8.855525 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  0, grid size: 33 * 5 * 5 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170581 0.0935578 0.0409467 0.022583 0.0120343 
+run time: 1.263644 seconds
+
+levels: 0 0 4 
+the process of obtaining matrix K,A completed, run time: 14.894422 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  4, grid size: 5 * 5 * 65 = 1625
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483528 -0.00451811 -0.0432971 -0.0655455 
+run time: 5.324716 seconds
+
+levels: 0 1 3 
+the process of obtaining matrix K,A completed, run time: 14.032561 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  3, grid size: 5 * 9 * 33 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110944 0.0483692 -0.00450374 -0.0432864 -0.0655406 
+run time: 4.145132 seconds
+
+levels: 0 2 2 
+the process of obtaining matrix K,A completed, run time: 14.068242 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  2, grid size: 5 * 17 * 17 = 1445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110943 0.0483682 -0.00450466 -0.0432872 -0.065541 
+run time: 3.867434 seconds
+
+levels: 0 3 1 
+the process of obtaining matrix K,A completed, run time: 13.975407 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  1, grid size: 5 * 33 * 9 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110939 0.0483646 -0.00450826 -0.0432906 -0.0655442 
+run time: 4.044048 seconds
+
+levels: 0 4 0 
+the process of obtaining matrix K,A completed, run time: 14.915138 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  4  0, grid size: 5 * 65 * 5 = 1625
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110976 0.0484034 -0.00446851 -0.0432505 -0.0655042 
+run time: 4.921385 seconds
+
+levels: 1 0 3 
+the process of obtaining matrix K,A completed, run time: 13.938419 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  3, grid size: 9 * 5 * 33 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155698 0.0703122 0.00907795 -0.0209858 -0.0262406 
+run time: 4.017757 seconds
+
+levels: 1 1 2 
+the process of obtaining matrix K,A completed, run time: 13.907397 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  2, grid size: 9 * 9 * 17 = 1377
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155796 0.0704321 0.00919479 -0.0209123 -0.0262421 
+run time: 3.407656 seconds
+
+levels: 1 2 1 
+the process of obtaining matrix K,A completed, run time: 13.384569 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  1, grid size: 9 * 17 * 9 = 1377
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155782 0.0704131 0.00917462 -0.020928 -0.0262491 
+run time: 3.409225 seconds
+
+levels: 1 3 0 
+the process of obtaining matrix K,A completed, run time: 14.099005 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  3  0, grid size: 9 * 33 * 5 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.15583 0.0704602 0.00922154 -0.0208791 -0.0261969 
+run time: 4.011359 seconds
+
+levels: 2 0 2 
+the process of obtaining matrix K,A completed, run time: 13.870237 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  2, grid size: 17 * 5 * 17 = 1445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172128 0.0886852 0.0283399 0.0069949 0.00743162 
+run time: 3.744887 seconds
+
+levels: 2 1 1 
+the process of obtaining matrix K,A completed, run time: 13.371821 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  1, grid size: 17 * 9 * 9 = 1377
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172105 0.0894331 0.0294674 0.00739658 0.00675762 
+run time: 3.344979 seconds
+
+levels: 2 2 0 
+the process of obtaining matrix K,A completed, run time: 13.891427 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  2  0, grid size: 17 * 17 * 5 = 1445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.17223 0.0894272 0.029383 0.00739947 0.00689912 
+run time: 3.781492 seconds
+
+levels: 3 0 1 
+the process of obtaining matrix K,A completed, run time: 14.082568 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  1, grid size: 33 * 5 * 9 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170546 0.0934767 0.0408069 0.0224419 0.0119358 
+run time: 3.904651 seconds
+
+levels: 3 1 0 
+the process of obtaining matrix K,A completed, run time: 14.115530 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  1  0, grid size: 33 * 9 * 5 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169543 0.0936608 0.0456122 0.0218235 0.010283 
+run time: 3.937377 seconds
+
+levels: 4 0 0 
+the process of obtaining matrix K,A completed, run time: 14.947404 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  0  0, grid size: 65 * 5 * 5 = 1625
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170865 0.0946197 0.0445338 0.0250194 0.0128738 
+run time: 4.663269 seconds
+
+The estimated Option price: 16.9854 9.45536 4.88809 2.40291 1.10838 
+              Benchmark   : 16.9512 9.6856 5.0227 2.4618 1.1774 
+          Total time spent: 4.412500e+02 s 
+>> save('level2-s.mat','esti','details');
+>> [esti,details]=MainFunc(3);
+levels: 0 0 3 
+the process of obtaining matrix K,A completed, run time: 8.968881 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  3, grid size: 5 * 5 * 33 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.048353 -0.00451792 -0.043297 -0.0655454 
+run time: 1.409905 seconds
+
+levels: 0 1 2 
+the process of obtaining matrix K,A completed, run time: 8.475939 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  2, grid size: 5 * 9 * 17 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110944 0.0483694 -0.00450362 -0.0432863 -0.0655405 
+run time: 1.220745 seconds
+
+levels: 0 2 1 
+the process of obtaining matrix K,A completed, run time: 8.477613 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  1, grid size: 5 * 17 * 9 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.11094 0.0483657 -0.00450727 -0.0432898 -0.0655436 
+run time: 1.225811 seconds
+
+levels: 0 3 0 
+the process of obtaining matrix K,A completed, run time: 8.859532 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  0, grid size: 5 * 33 * 5 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110977 0.0484042 -0.00446777 -0.0432498 -0.0655038 
+run time: 1.391992 seconds
+
+levels: 1 0 2 
+the process of obtaining matrix K,A completed, run time: 8.537944 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  2, grid size: 9 * 5 * 17 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155699 0.0703123 0.00907798 -0.0209858 -0.0262406 
+run time: 1.234509 seconds
+
+levels: 1 1 1 
+the process of obtaining matrix K,A completed, run time: 8.330531 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  1, grid size: 9 * 9 * 9 = 729
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155793 0.0704284 0.0091911 -0.0209158 -0.0262455 
+run time: 1.083201 seconds
+
+levels: 1 2 0 
+the process of obtaining matrix K,A completed, run time: 8.509896 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  0, grid size: 9 * 17 * 5 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155838 0.0704701 0.00923195 -0.0208716 -0.0261948 
+run time: 1.138171 seconds
+
+levels: 2 0 1 
+the process of obtaining matrix K,A completed, run time: 8.487877 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  1, grid size: 17 * 5 * 9 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172124 0.0886802 0.0283344 0.00698951 0.00742685 
+run time: 1.140466 seconds
+
+levels: 2 1 0 
+the process of obtaining matrix K,A completed, run time: 8.561271 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  0, grid size: 17 * 9 * 5 = 765
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172164 0.0895095 0.0295563 0.00748672 0.00684187 
+run time: 1.140741 seconds
+
+levels: 3 0 0 
+the process of obtaining matrix K,A completed, run time: 8.840512 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  0, grid size: 33 * 5 * 5 = 825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170581 0.0935578 0.0409467 0.022583 0.0120343 
+run time: 1.254339 seconds
+
+levels: 0 0 4 
+the process of obtaining matrix K,A completed, run time: 14.786834 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  4, grid size: 5 * 5 * 65 = 1625
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483528 -0.00451811 -0.0432971 -0.0655455 
+run time: 5.214786 seconds
+
+levels: 0 1 3 
+the process of obtaining matrix K,A completed, run time: 13.920706 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  3, grid size: 5 * 9 * 33 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110944 0.0483692 -0.00450374 -0.0432864 -0.0655406 
+run time: 4.118047 seconds
+
+levels: 0 2 2 
+the process of obtaining matrix K,A completed, run time: 13.756910 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  2, grid size: 5 * 17 * 17 = 1445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110943 0.0483682 -0.00450466 -0.0432872 -0.065541 
+run time: 3.916926 seconds
+
+levels: 0 3 1 
+the process of obtaining matrix K,A completed, run time: 14.011023 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  1, grid size: 5 * 33 * 9 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110939 0.0483646 -0.00450826 -0.0432906 -0.0655442 
+run time: 4.092689 seconds
+
+levels: 0 4 0 
+the process of obtaining matrix K,A completed, run time: 14.863366 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  4  0, grid size: 5 * 65 * 5 = 1625
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110976 0.0484034 -0.00446851 -0.0432505 -0.0655042 
+run time: 4.939764 seconds
+
+levels: 1 0 3 
+the process of obtaining matrix K,A completed, run time: 13.903124 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  3, grid size: 9 * 5 * 33 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155698 0.0703122 0.00907795 -0.0209858 -0.0262406 
+run time: 4.006189 seconds
+
+levels: 1 1 2 
+the process of obtaining matrix K,A completed, run time: 13.444023 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  2, grid size: 9 * 9 * 17 = 1377
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155796 0.0704321 0.00919479 -0.0209123 -0.0262421 
+run time: 3.362444 seconds
+
+levels: 1 2 1 
+the process of obtaining matrix K,A completed, run time: 13.265824 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  1, grid size: 9 * 17 * 9 = 1377
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155782 0.0704131 0.00917462 -0.020928 -0.0262491 
+run time: 3.366413 seconds
+
+levels: 1 3 0 
+the process of obtaining matrix K,A completed, run time: 14.128712 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  3  0, grid size: 9 * 33 * 5 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.15583 0.0704602 0.00922154 -0.0208791 -0.0261969 
+run time: 4.009067 seconds
+
+levels: 2 0 2 
+the process of obtaining matrix K,A completed, run time: 13.728661 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  2, grid size: 17 * 5 * 17 = 1445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172128 0.0886852 0.0283399 0.0069949 0.00743162 
+run time: 3.740466 seconds
+
+levels: 2 1 1 
+the process of obtaining matrix K,A completed, run time: 13.273937 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  1, grid size: 17 * 9 * 9 = 1377
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172105 0.0894331 0.0294674 0.00739658 0.00675762 
+run time: 3.336603 seconds
+
+levels: 2 2 0 
+the process of obtaining matrix K,A completed, run time: 13.730490 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  2  0, grid size: 17 * 17 * 5 = 1445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.17223 0.0894272 0.029383 0.00739947 0.00689912 
+run time: 3.758270 seconds
+
+levels: 3 0 1 
+the process of obtaining matrix K,A completed, run time: 14.016456 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  1, grid size: 33 * 5 * 9 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170546 0.0934767 0.0408069 0.0224419 0.0119358 
+run time: 3.902823 seconds
+
+levels: 3 1 0 
+the process of obtaining matrix K,A completed, run time: 14.048821 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  1  0, grid size: 33 * 9 * 5 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169543 0.0936608 0.0456122 0.0218235 0.010283 
+run time: 3.893879 seconds
+
+levels: 4 0 0 
+the process of obtaining matrix K,A completed, run time: 14.792352 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  0  0, grid size: 65 * 5 * 5 = 1625
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170865 0.0946197 0.0445338 0.0250194 0.0128738 
+run time: 4.603099 seconds
+
+levels: 0 0 5 
+the process of obtaining matrix K,A completed, run time: 26.662607 s
+Time: 40 ;Iterations: 8
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 7
+levels:  0  0  5, grid size: 5 * 5 * 129 = 3225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483527 -0.0045182 -0.0432972 -0.0655456 
+run time: 21.716399 seconds
+
+levels: 0 1 4 
+the process of obtaining matrix K,A completed, run time: 24.912085 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  4, grid size: 5 * 9 * 65 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110943 0.0483691 -0.00450393 -0.0432866 -0.0655408 
+run time: 17.639916 seconds
+
+levels: 0 2 3 
+the process of obtaining matrix K,A completed, run time: 24.453873 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  3, grid size: 5 * 17 * 33 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110942 0.0483681 -0.00450478 -0.0432873 -0.0655411 
+run time: 15.878321 seconds
+
+levels: 0 3 2 
+the process of obtaining matrix K,A completed, run time: 24.327768 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  2, grid size: 5 * 33 * 17 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483672 -0.00450565 -0.043288 -0.0655416 
+run time: 15.805423 seconds
+
+levels: 0 4 1 
+the process of obtaining matrix K,A completed, run time: 25.452210 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  4  1, grid size: 5 * 65 * 9 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110938 0.0483638 -0.004509 -0.0432913 -0.0655446 
+run time: 17.183106 seconds
+
+levels: 0 5 0 
+the process of obtaining matrix K,A completed, run time: 27.239887 s
+Time: 40 ;Iterations: 9
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 8
+Time: 160 ;Iterations: 8
+Time: 200 ;Iterations: 8
+levels:  0  5  0, grid size: 5 * 129 * 5 = 3225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110976 0.048403 -0.00446896 -0.0432509 -0.0655045 
+run time: 21.381780 seconds
+
+levels: 1 0 4 
+the process of obtaining matrix K,A completed, run time: 25.000174 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  4, grid size: 9 * 5 * 65 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155698 0.0703121 0.0090781 -0.0209856 -0.0262404 
+run time: 17.038749 seconds
+
+levels: 1 1 3 
+the process of obtaining matrix K,A completed, run time: 23.568679 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  3, grid size: 9 * 9 * 33 = 2673
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155796 0.070432 0.00919476 -0.0209123 -0.0262421 
+run time: 13.763963 seconds
+
+levels: 1 2 2 
+the process of obtaining matrix K,A completed, run time: 23.137551 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  2, grid size: 9 * 17 * 17 = 2601
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155786 0.0704168 0.00917832 -0.0209244 -0.0262458 
+run time: 12.884821 seconds
+
+levels: 1 3 1 
+the process of obtaining matrix K,A completed, run time: 23.856678 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  3  1, grid size: 9 * 33 * 9 = 2673
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155775 0.0704031 0.0091642 -0.0209355 -0.0262512 
+run time: 13.940426 seconds
+
+levels: 1 4 0 
+the process of obtaining matrix K,A completed, run time: 25.336136 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 6
+levels:  1  4  0, grid size: 9 * 65 * 5 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155826 0.0704544 0.00921577 -0.0208831 -0.0261977 
+run time: 17.137133 seconds
+
+levels: 2 0 3 
+the process of obtaining matrix K,A completed, run time: 25.283662 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  3, grid size: 17 * 5 * 33 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172128 0.0886851 0.02834 0.00699494 0.00743162 
+run time: 16.093864 seconds
+
+levels: 2 1 2 
+the process of obtaining matrix K,A completed, run time: 24.133193 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  2, grid size: 17 * 9 * 17 = 2601
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172109 0.0894381 0.029473 0.00740195 0.00676237 
+run time: 13.111990 seconds
+
+levels: 2 2 1 
+the process of obtaining matrix K,A completed, run time: 23.110708 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  2  1, grid size: 17 * 17 * 9 = 2601
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172171 0.0893509 0.0292941 0.00730925 0.00681474 
+run time: 12.715792 seconds
+
+levels: 2 3 0 
+the process of obtaining matrix K,A completed, run time: 24.551737 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  3  0, grid size: 17 * 33 * 5 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172253 0.0893828 0.0292993 0.00736063 0.00693265 
+run time: 15.118290 seconds
+
+levels: 3 0 2 
+the process of obtaining matrix K,A completed, run time: 24.330976 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  2, grid size: 33 * 5 * 17 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170549 0.0934821 0.0408148 0.0224495 0.0119412 
+run time: 15.137969 seconds
+
+levels: 3 1 1 
+the process of obtaining matrix K,A completed, run time: 23.484638 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  1  1, grid size: 33 * 9 * 9 = 2673
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169503 0.0935752 0.0454831 0.0216951 0.0101815 
+run time: 13.722601 seconds
+
+levels: 3 2 0 
+the process of obtaining matrix K,A completed, run time: 24.484603 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  2  0, grid size: 33 * 17 * 5 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169784 0.0940464 0.0449932 0.0217669 0.0103833 
+run time: 15.230911 seconds
+
+levels: 4 0 1 
+the process of obtaining matrix K,A completed, run time: 24.982479 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  0  1, grid size: 65 * 5 * 9 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170856 0.0945754 0.0442865 0.0248807 0.012805 
+run time: 16.729793 seconds
+
+levels: 4 1 0 
+the process of obtaining matrix K,A completed, run time: 25.114494 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  1  0, grid size: 65 * 9 * 5 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169331 0.0954232 0.0499506 0.0241121 0.011482 
+run time: 16.704403 seconds
+
+levels: 5 0 0 
+the process of obtaining matrix K,A completed, run time: 26.827939 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  5  0  0, grid size: 129 * 5 * 5 = 3225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.171125 0.094814 0.046297 0.0252674 0.0131858 
+run time: 20.498977 seconds
+
+The estimated Option price: 16.9837 9.59086 5.07763 2.41418 1.18604 
+              Benchmark   : 16.9512 9.6856 5.0227 2.4618 1.1774 
+          Total time spent: 1.292406e+03 s 
+>> save('level3-s.mat','esti','details');
+>> [esti,details]=MainFunc(4);save('level4-s.mat','esti','details');[esti,details]=MainFunc(5);save('level5-s.mat','esti','details');
+levels: 0 0 4 
+the process of obtaining matrix K,A completed, run time: 14.760882 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  0  4, grid size: 5 * 5 * 65 = 1625
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483528 -0.00451811 -0.0432971 -0.0655455 
+run time: 5.061254 seconds
+
+levels: 0 1 3 
+the process of obtaining matrix K,A completed, run time: 13.743403 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  3, grid size: 5 * 9 * 33 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110944 0.0483692 -0.00450374 -0.0432864 -0.0655406 
+run time: 4.071353 seconds
+
+levels: 0 2 2 
+the process of obtaining matrix K,A completed, run time: 13.555115 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  2, grid size: 5 * 17 * 17 = 1445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110943 0.0483682 -0.00450466 -0.0432872 -0.065541 
+run time: 3.860352 seconds
+
+levels: 0 3 1 
+the process of obtaining matrix K,A completed, run time: 13.854664 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  1, grid size: 5 * 33 * 9 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110939 0.0483646 -0.00450826 -0.0432906 -0.0655442 
+run time: 4.017465 seconds
+
+levels: 0 4 0 
+the process of obtaining matrix K,A completed, run time: 14.653932 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  4  0, grid size: 5 * 65 * 5 = 1625
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110976 0.0484034 -0.00446851 -0.0432505 -0.0655042 
+run time: 4.840580 seconds
+
+levels: 1 0 3 
+the process of obtaining matrix K,A completed, run time: 13.877032 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  3, grid size: 9 * 5 * 33 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155698 0.0703122 0.00907795 -0.0209858 -0.0262406 
+run time: 3.948541 seconds
+
+levels: 1 1 2 
+the process of obtaining matrix K,A completed, run time: 13.255060 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  2, grid size: 9 * 9 * 17 = 1377
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155796 0.0704321 0.00919479 -0.0209123 -0.0262421 
+run time: 3.351418 seconds
+
+levels: 1 2 1 
+the process of obtaining matrix K,A completed, run time: 13.196001 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  1, grid size: 9 * 17 * 9 = 1377
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155782 0.0704131 0.00917462 -0.020928 -0.0262491 
+run time: 3.342440 seconds
+
+levels: 1 3 0 
+the process of obtaining matrix K,A completed, run time: 13.712020 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  3  0, grid size: 9 * 33 * 5 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.15583 0.0704602 0.00922154 -0.0208791 -0.0261969 
+run time: 3.932856 seconds
+
+levels: 2 0 2 
+the process of obtaining matrix K,A completed, run time: 13.444069 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  2, grid size: 17 * 5 * 17 = 1445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172128 0.0886852 0.0283399 0.0069949 0.00743162 
+run time: 3.667275 seconds
+
+levels: 2 1 1 
+the process of obtaining matrix K,A completed, run time: 13.106976 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  1, grid size: 17 * 9 * 9 = 1377
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172105 0.0894331 0.0294674 0.00739658 0.00675762 
+run time: 3.257177 seconds
+
+levels: 2 2 0 
+the process of obtaining matrix K,A completed, run time: 13.510768 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  2  0, grid size: 17 * 17 * 5 = 1445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.17223 0.0894272 0.029383 0.00739947 0.00689912 
+run time: 3.672341 seconds
+
+levels: 3 0 1 
+the process of obtaining matrix K,A completed, run time: 13.637138 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  1, grid size: 33 * 5 * 9 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170546 0.0934767 0.0408069 0.0224419 0.0119358 
+run time: 3.810718 seconds
+
+levels: 3 1 0 
+the process of obtaining matrix K,A completed, run time: 13.683178 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  1  0, grid size: 33 * 9 * 5 = 1485
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169543 0.0936608 0.0456122 0.0218235 0.010283 
+run time: 3.829321 seconds
+
+levels: 4 0 0 
+the process of obtaining matrix K,A completed, run time: 14.457612 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  0  0, grid size: 65 * 5 * 5 = 1625
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170865 0.0946197 0.0445338 0.0250194 0.0128738 
+run time: 4.518662 seconds
+
+levels: 0 0 5 
+the process of obtaining matrix K,A completed, run time: 26.559990 s
+Time: 40 ;Iterations: 8
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 7
+levels:  0  0  5, grid size: 5 * 5 * 129 = 3225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483527 -0.0045182 -0.0432972 -0.0655456 
+run time: 21.253196 seconds
+
+levels: 0 1 4 
+the process of obtaining matrix K,A completed, run time: 24.946755 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  4, grid size: 5 * 9 * 65 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110943 0.0483691 -0.00450393 -0.0432866 -0.0655408 
+run time: 17.247058 seconds
+
+levels: 0 2 3 
+the process of obtaining matrix K,A completed, run time: 24.186267 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  3, grid size: 5 * 17 * 33 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110942 0.0483681 -0.00450478 -0.0432873 -0.0655411 
+run time: 15.628944 seconds
+
+levels: 0 3 2 
+the process of obtaining matrix K,A completed, run time: 24.338607 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  2, grid size: 5 * 33 * 17 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483672 -0.00450565 -0.043288 -0.0655416 
+run time: 15.544658 seconds
+
+levels: 0 4 1 
+the process of obtaining matrix K,A completed, run time: 25.110534 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  4  1, grid size: 5 * 65 * 9 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110938 0.0483638 -0.004509 -0.0432913 -0.0655446 
+run time: 17.112159 seconds
+
+levels: 0 5 0 
+the process of obtaining matrix K,A completed, run time: 26.586727 s
+Time: 40 ;Iterations: 9
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 8
+Time: 160 ;Iterations: 8
+Time: 200 ;Iterations: 8
+levels:  0  5  0, grid size: 5 * 129 * 5 = 3225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110976 0.048403 -0.00446896 -0.0432509 -0.0655045 
+run time: 20.967095 seconds
+
+levels: 1 0 4 
+the process of obtaining matrix K,A completed, run time: 24.447532 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  4, grid size: 9 * 5 * 65 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155698 0.0703121 0.0090781 -0.0209856 -0.0262404 
+run time: 16.543531 seconds
+
+levels: 1 1 3 
+the process of obtaining matrix K,A completed, run time: 22.987275 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  3, grid size: 9 * 9 * 33 = 2673
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155796 0.070432 0.00919476 -0.0209123 -0.0262421 
+run time: 13.357082 seconds
+
+levels: 1 2 2 
+the process of obtaining matrix K,A completed, run time: 22.585133 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  2, grid size: 9 * 17 * 17 = 2601
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155786 0.0704168 0.00917832 -0.0209244 -0.0262458 
+run time: 12.688113 seconds
+
+levels: 1 3 1 
+the process of obtaining matrix K,A completed, run time: 23.511842 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  3  1, grid size: 9 * 33 * 9 = 2673
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155775 0.0704031 0.0091642 -0.0209355 -0.0262512 
+run time: 13.373615 seconds
+
+levels: 1 4 0 
+the process of obtaining matrix K,A completed, run time: 24.930278 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 6
+levels:  1  4  0, grid size: 9 * 65 * 5 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155826 0.0704544 0.00921577 -0.0208831 -0.0261977 
+run time: 16.529882 seconds
+
+levels: 2 0 3 
+the process of obtaining matrix K,A completed, run time: 24.123689 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  3, grid size: 17 * 5 * 33 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172128 0.0886851 0.02834 0.00699494 0.00743162 
+run time: 14.864078 seconds
+
+levels: 2 1 2 
+the process of obtaining matrix K,A completed, run time: 22.696922 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  2, grid size: 17 * 9 * 17 = 2601
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172109 0.0894381 0.029473 0.00740195 0.00676237 
+run time: 12.334977 seconds
+
+levels: 2 2 1 
+the process of obtaining matrix K,A completed, run time: 22.667360 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  2  1, grid size: 17 * 17 * 9 = 2601
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172171 0.0893509 0.0292941 0.00730925 0.00681474 
+run time: 12.350304 seconds
+
+levels: 2 3 0 
+the process of obtaining matrix K,A completed, run time: 23.963750 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  3  0, grid size: 17 * 33 * 5 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172253 0.0893828 0.0292993 0.00736063 0.00693265 
+run time: 14.755359 seconds
+
+levels: 3 0 2 
+the process of obtaining matrix K,A completed, run time: 23.773526 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  2, grid size: 33 * 5 * 17 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170549 0.0934821 0.0408148 0.0224495 0.0119412 
+run time: 14.850309 seconds
+
+levels: 3 1 1 
+the process of obtaining matrix K,A completed, run time: 23.549791 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  1  1, grid size: 33 * 9 * 9 = 2673
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169503 0.0935752 0.0454831 0.0216951 0.0101815 
+run time: 13.161378 seconds
+
+levels: 3 2 0 
+the process of obtaining matrix K,A completed, run time: 24.298769 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  2  0, grid size: 33 * 17 * 5 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169784 0.0940464 0.0449932 0.0217669 0.0103833 
+run time: 14.801720 seconds
+
+levels: 4 0 1 
+the process of obtaining matrix K,A completed, run time: 25.316822 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  0  1, grid size: 65 * 5 * 9 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170856 0.0945754 0.0442865 0.0248807 0.012805 
+run time: 16.402395 seconds
+
+levels: 4 1 0 
+the process of obtaining matrix K,A completed, run time: 25.811200 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  1  0, grid size: 65 * 9 * 5 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169331 0.0954232 0.0499506 0.0241121 0.011482 
+run time: 16.249903 seconds
+
+levels: 5 0 0 
+the process of obtaining matrix K,A completed, run time: 27.547982 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  5  0  0, grid size: 129 * 5 * 5 = 3225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.171125 0.094814 0.046297 0.0252674 0.0131858 
+run time: 20.051611 seconds
+
+levels: 0 0 6 
+the process of obtaining matrix K,A completed, run time: 52.310781 s
+Time: 40 ;Iterations: 14
+Time: 80 ;Iterations: 13
+Time: 120 ;Iterations: 13
+Time: 160 ;Iterations: 13
+Time: 200 ;Iterations: 12
+levels:  0  0  6, grid size: 5 * 5 * 257 = 6425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483527 -0.0045182 -0.0432972 -0.0655456 
+run time: 85.518987 seconds
+
+levels: 0 1 5 
+the process of obtaining matrix K,A completed, run time: 48.365739 s
+Time: 40 ;Iterations: 8
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 7
+levels:  0  1  5, grid size: 5 * 9 * 129 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110943 0.048369 -0.00450403 -0.0432867 -0.0655408 
+run time: 69.832141 seconds
+
+levels: 0 2 4 
+the process of obtaining matrix K,A completed, run time: 46.925149 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  4, grid size: 5 * 17 * 65 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110942 0.0483679 -0.00450497 -0.0432875 -0.0655413 
+run time: 62.674518 seconds
+
+levels: 0 3 3 
+the process of obtaining matrix K,A completed, run time: 46.289656 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  3, grid size: 5 * 33 * 33 = 5445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483671 -0.00450575 -0.0432881 -0.0655417 
+run time: 60.584957 seconds
+
+levels: 0 4 2 
+the process of obtaining matrix K,A completed, run time: 46.495612 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  4  2, grid size: 5 * 65 * 17 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483664 -0.00450637 -0.0432886 -0.065542 
+run time: 62.217917 seconds
+
+levels: 0 5 1 
+the process of obtaining matrix K,A completed, run time: 48.591722 s
+Time: 40 ;Iterations: 9
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 8
+Time: 160 ;Iterations: 8
+Time: 200 ;Iterations: 8
+levels:  0  5  1, grid size: 5 * 129 * 9 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110938 0.0483634 -0.00450944 -0.0432917 -0.0655449 
+run time: 68.811821 seconds
+
+levels: 0 6 0 
+the process of obtaining matrix K,A completed, run time: 52.388900 s
+Time: 40 ;Iterations: 22
+Time: 80 ;Iterations: 20
+Time: 120 ;Iterations: 19
+Time: 160 ;Iterations: 18
+Time: 200 ;Iterations: 18
+levels:  0  6  0, grid size: 5 * 257 * 5 = 6425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110976 0.0484028 -0.0044691 -0.043251 -0.0655046 
+run time: 85.337961 seconds
+
+levels: 1 0 5 
+the process of obtaining matrix K,A completed, run time: 48.120737 s
+Time: 40 ;Iterations: 9
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 8
+Time: 160 ;Iterations: 8
+Time: 200 ;Iterations: 8
+levels:  1  0  5, grid size: 9 * 5 * 129 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155698 0.0703121 0.00907817 -0.0209855 -0.0262403 
+run time: 67.624346 seconds
+
+levels: 1 1 4 
+the process of obtaining matrix K,A completed, run time: 44.776473 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  4, grid size: 9 * 9 * 65 = 5265
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155796 0.0704319 0.00919493 -0.020912 -0.0262418 
+run time: 55.730174 seconds
+
+levels: 1 2 3 
+the process of obtaining matrix K,A completed, run time: 43.657734 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  3, grid size: 9 * 17 * 33 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155785 0.0704167 0.00917828 -0.0209244 -0.0262458 
+run time: 51.093273 seconds
+
+levels: 1 3 2 
+the process of obtaining matrix K,A completed, run time: 43.525885 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  3  2, grid size: 9 * 33 * 17 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155778 0.0704068 0.0091679 -0.0209319 -0.0262478 
+run time: 51.088072 seconds
+
+levels: 1 4 1 
+the process of obtaining matrix K,A completed, run time: 44.947084 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 6
+levels:  1  4  1, grid size: 9 * 65 * 9 = 5265
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.15577 0.0703973 0.00915842 -0.0209395 -0.0262521 
+run time: 55.364342 seconds
+
+levels: 1 5 0 
+the process of obtaining matrix K,A completed, run time: 48.490338 s
+Time: 40 ;Iterations: 10
+Time: 80 ;Iterations: 10
+Time: 120 ;Iterations: 9
+Time: 160 ;Iterations: 9
+Time: 200 ;Iterations: 9
+levels:  1  5  0, grid size: 9 * 129 * 5 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155824 0.0704515 0.00921281 -0.0208852 -0.0261983 
+run time: 67.498959 seconds
+
+levels: 2 0 4 
+the process of obtaining matrix K,A completed, run time: 45.837717 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  4, grid size: 17 * 5 * 65 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172127 0.088685 0.0283405 0.00699554 0.00743204 
+run time: 60.597664 seconds
+
+levels: 2 1 3 
+the process of obtaining matrix K,A completed, run time: 43.178340 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  3, grid size: 17 * 9 * 33 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172109 0.089438 0.029473 0.00740198 0.00676235 
+run time: 50.525064 seconds
+
+levels: 2 2 2 
+the process of obtaining matrix K,A completed, run time: 42.539932 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  2  2, grid size: 17 * 17 * 17 = 4913
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172175 0.0893558 0.0292996 0.00731462 0.00681949 
+run time: 47.747949 seconds
+
+levels: 2 3 1 
+the process of obtaining matrix K,A completed, run time: 43.503734 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  3  1, grid size: 17 * 33 * 9 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172194 0.0893065 0.0292103 0.00727038 0.00684823 
+run time: 50.351266 seconds
+
+levels: 2 4 0 
+the process of obtaining matrix K,A completed, run time: 47.253101 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 7
+levels:  2  4  0, grid size: 17 * 65 * 5 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172262 0.0893574 0.029254 0.00734091 0.0069532 
+run time: 60.156291 seconds
+
+levels: 3 0 3 
+the process of obtaining matrix K,A completed, run time: 46.114810 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  3, grid size: 33 * 5 * 33 = 5445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170549 0.093482 0.0408148 0.0224494 0.0119412 
+run time: 58.272209 seconds
+
+levels: 3 1 2 
+the process of obtaining matrix K,A completed, run time: 43.954176 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  1  2, grid size: 33 * 9 * 17 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169506 0.0935808 0.0454904 0.0217021 0.010187 
+run time: 50.330912 seconds
+
+levels: 3 2 1 
+the process of obtaining matrix K,A completed, run time: 43.311527 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  2  1, grid size: 33 * 17 * 9 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169744 0.0939624 0.0448643 0.0216362 0.0102808 
+run time: 50.397226 seconds
+
+levels: 3 3 0 
+the process of obtaining matrix K,A completed, run time: 46.187507 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  3  0, grid size: 33 * 33 * 5 = 5445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169852 0.0940847 0.0448261 0.0217623 0.0104246 
+run time: 58.431277 seconds
+
+levels: 4 0 2 
+the process of obtaining matrix K,A completed, run time: 47.291512 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  0  2, grid size: 65 * 5 * 17 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170858 0.0945788 0.0442984 0.0248891 0.0128089 
+run time: 59.909589 seconds
+
+levels: 4 1 1 
+the process of obtaining matrix K,A completed, run time: 45.172395 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  1  1, grid size: 65 * 9 * 9 = 5265
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169323 0.0953154 0.0497991 0.0239784 0.011379 
+run time: 54.486548 seconds
+
+levels: 4 2 0 
+the process of obtaining matrix K,A completed, run time: 47.065513 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  2  0, grid size: 65 * 17 * 5 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169359 0.0960307 0.0492505 0.0239969 0.0114654 
+run time: 60.021769 seconds
+
+levels: 5 0 1 
+the process of obtaining matrix K,A completed, run time: 48.204171 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  5  0  1, grid size: 129 * 5 * 9 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.171113 0.0948629 0.0457368 0.0251474 0.0131079 
+run time: 65.930333 seconds
+
+levels: 5 1 0 
+the process of obtaining matrix K,A completed, run time: 48.668537 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  5  1  0, grid size: 129 * 9 * 5 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169506 0.0959886 0.0505571 0.0247849 0.0118434 
+run time: 66.331823 seconds
+
+levels: 6 0 0 
+the process of obtaining matrix K,A completed, run time: 52.311964 s
+Time: 40 ;Iterations: 10
+Time: 80 ;Iterations: 11
+Time: 120 ;Iterations: 11
+Time: 160 ;Iterations: 11
+Time: 200 ;Iterations: 11
+levels:  6  0  0, grid size: 257 * 5 * 5 = 6425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.171221 0.0948294 0.047358 0.0253105 0.0132731 
+run time: 80.884021 seconds
+
+The estimated Option price: 16.9696 9.66121  5.025 2.45778 1.18666 
+              Benchmark   : 16.9512 9.6856 5.0227 2.4618 1.1774 
+          Total time spent: 4.245266e+03 s 
+levels: 0 0 5 
+the process of obtaining matrix K,A completed, run time: 27.414880 s
+Time: 40 ;Iterations: 8
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 7
+levels:  0  0  5, grid size: 5 * 5 * 129 = 3225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483527 -0.0045182 -0.0432972 -0.0655456 
+run time: 21.067924 seconds
+
+levels: 0 1 4 
+the process of obtaining matrix K,A completed, run time: 25.562841 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  1  4, grid size: 5 * 9 * 65 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110943 0.0483691 -0.00450393 -0.0432866 -0.0655408 
+run time: 17.090386 seconds
+
+levels: 0 2 3 
+the process of obtaining matrix K,A completed, run time: 24.895782 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  3, grid size: 5 * 17 * 33 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110942 0.0483681 -0.00450478 -0.0432873 -0.0655411 
+run time: 16.565744 seconds
+
+levels: 0 3 2 
+the process of obtaining matrix K,A completed, run time: 25.328768 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  2, grid size: 5 * 33 * 17 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483672 -0.00450565 -0.043288 -0.0655416 
+run time: 15.404642 seconds
+
+levels: 0 4 1 
+the process of obtaining matrix K,A completed, run time: 25.745889 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  4  1, grid size: 5 * 65 * 9 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110938 0.0483638 -0.004509 -0.0432913 -0.0655446 
+run time: 16.949343 seconds
+
+levels: 0 5 0 
+the process of obtaining matrix K,A completed, run time: 27.577636 s
+Time: 40 ;Iterations: 9
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 8
+Time: 160 ;Iterations: 8
+Time: 200 ;Iterations: 8
+levels:  0  5  0, grid size: 5 * 129 * 5 = 3225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110976 0.048403 -0.00446896 -0.0432509 -0.0655045 
+run time: 20.955861 seconds
+
+levels: 1 0 4 
+the process of obtaining matrix K,A completed, run time: 25.473344 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  0  4, grid size: 9 * 5 * 65 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155698 0.0703121 0.0090781 -0.0209856 -0.0262404 
+run time: 16.541831 seconds
+
+levels: 1 1 3 
+the process of obtaining matrix K,A completed, run time: 23.902343 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  3, grid size: 9 * 9 * 33 = 2673
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155796 0.070432 0.00919476 -0.0209123 -0.0262421 
+run time: 13.385698 seconds
+
+levels: 1 2 2 
+the process of obtaining matrix K,A completed, run time: 23.849099 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  2, grid size: 9 * 17 * 17 = 2601
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155786 0.0704168 0.00917832 -0.0209244 -0.0262458 
+run time: 12.455733 seconds
+
+levels: 1 3 1 
+the process of obtaining matrix K,A completed, run time: 23.871170 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  3  1, grid size: 9 * 33 * 9 = 2673
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155775 0.0704031 0.0091642 -0.0209355 -0.0262512 
+run time: 13.352273 seconds
+
+levels: 1 4 0 
+the process of obtaining matrix K,A completed, run time: 25.968208 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 6
+levels:  1  4  0, grid size: 9 * 65 * 5 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155826 0.0704544 0.00921577 -0.0208831 -0.0261977 
+run time: 16.401780 seconds
+
+levels: 2 0 3 
+the process of obtaining matrix K,A completed, run time: 24.427534 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  3, grid size: 17 * 5 * 33 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172128 0.0886851 0.02834 0.00699494 0.00743162 
+run time: 14.758893 seconds
+
+levels: 2 1 2 
+the process of obtaining matrix K,A completed, run time: 23.412442 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  2, grid size: 17 * 9 * 17 = 2601
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172109 0.0894381 0.029473 0.00740195 0.00676237 
+run time: 12.309003 seconds
+
+levels: 2 2 1 
+the process of obtaining matrix K,A completed, run time: 23.703390 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  2  1, grid size: 17 * 17 * 9 = 2601
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172171 0.0893509 0.0292941 0.00730925 0.00681474 
+run time: 12.330830 seconds
+
+levels: 2 3 0 
+the process of obtaining matrix K,A completed, run time: 24.983963 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  3  0, grid size: 17 * 33 * 5 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172253 0.0893828 0.0292993 0.00736063 0.00693265 
+run time: 14.838042 seconds
+
+levels: 3 0 2 
+the process of obtaining matrix K,A completed, run time: 24.989485 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  2, grid size: 33 * 5 * 17 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170549 0.0934821 0.0408148 0.0224495 0.0119412 
+run time: 14.740407 seconds
+
+levels: 3 1 1 
+the process of obtaining matrix K,A completed, run time: 23.790932 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  1  1, grid size: 33 * 9 * 9 = 2673
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169503 0.0935752 0.0454831 0.0216951 0.0101815 
+run time: 13.129577 seconds
+
+levels: 3 2 0 
+the process of obtaining matrix K,A completed, run time: 25.075618 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  2  0, grid size: 33 * 17 * 5 = 2805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169784 0.0940464 0.0449932 0.0217669 0.0103833 
+run time: 14.725248 seconds
+
+levels: 4 0 1 
+the process of obtaining matrix K,A completed, run time: 25.648844 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  0  1, grid size: 65 * 5 * 9 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170856 0.0945754 0.0442865 0.0248807 0.012805 
+run time: 16.181954 seconds
+
+levels: 4 1 0 
+the process of obtaining matrix K,A completed, run time: 25.656969 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  1  0, grid size: 65 * 9 * 5 = 2925
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169331 0.0954232 0.0499506 0.0241121 0.011482 
+run time: 16.205384 seconds
+
+levels: 5 0 0 
+the process of obtaining matrix K,A completed, run time: 27.616907 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  5  0  0, grid size: 129 * 5 * 5 = 3225
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.171125 0.094814 0.046297 0.0252674 0.0131858 
+run time: 19.840800 seconds
+
+levels: 0 0 6 
+the process of obtaining matrix K,A completed, run time: 51.669955 s
+Time: 40 ;Iterations: 14
+Time: 80 ;Iterations: 13
+Time: 120 ;Iterations: 13
+Time: 160 ;Iterations: 13
+Time: 200 ;Iterations: 12
+levels:  0  0  6, grid size: 5 * 5 * 257 = 6425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483527 -0.0045182 -0.0432972 -0.0655456 
+run time: 84.843490 seconds
+
+levels: 0 1 5 
+the process of obtaining matrix K,A completed, run time: 48.495536 s
+Time: 40 ;Iterations: 8
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 7
+levels:  0  1  5, grid size: 5 * 9 * 129 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110943 0.048369 -0.00450403 -0.0432867 -0.0655408 
+run time: 69.411223 seconds
+
+levels: 0 2 4 
+the process of obtaining matrix K,A completed, run time: 46.458624 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  2  4, grid size: 5 * 17 * 65 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110942 0.0483679 -0.00450497 -0.0432875 -0.0655413 
+run time: 62.653532 seconds
+
+levels: 0 3 3 
+the process of obtaining matrix K,A completed, run time: 45.956392 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  3, grid size: 5 * 33 * 33 = 5445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483671 -0.00450575 -0.0432881 -0.0655417 
+run time: 60.621381 seconds
+
+levels: 0 4 2 
+the process of obtaining matrix K,A completed, run time: 46.193406 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  4  2, grid size: 5 * 65 * 17 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483664 -0.00450637 -0.0432886 -0.065542 
+run time: 62.235658 seconds
+
+levels: 0 5 1 
+the process of obtaining matrix K,A completed, run time: 48.358132 s
+Time: 40 ;Iterations: 9
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 8
+Time: 160 ;Iterations: 8
+Time: 200 ;Iterations: 8
+levels:  0  5  1, grid size: 5 * 129 * 9 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110938 0.0483634 -0.00450944 -0.0432917 -0.0655449 
+run time: 68.901213 seconds
+
+levels: 0 6 0 
+the process of obtaining matrix K,A completed, run time: 52.052076 s
+Time: 40 ;Iterations: 22
+Time: 80 ;Iterations: 20
+Time: 120 ;Iterations: 19
+Time: 160 ;Iterations: 18
+Time: 200 ;Iterations: 18
+levels:  0  6  0, grid size: 5 * 257 * 5 = 6425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110976 0.0484028 -0.0044691 -0.043251 -0.0655046 
+run time: 84.948561 seconds
+
+levels: 1 0 5 
+the process of obtaining matrix K,A completed, run time: 48.325742 s
+Time: 40 ;Iterations: 9
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 8
+Time: 160 ;Iterations: 8
+Time: 200 ;Iterations: 8
+levels:  1  0  5, grid size: 9 * 5 * 129 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155698 0.0703121 0.00907817 -0.0209855 -0.0262403 
+run time: 67.412590 seconds
+
+levels: 1 1 4 
+the process of obtaining matrix K,A completed, run time: 45.031949 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  1  4, grid size: 9 * 9 * 65 = 5265
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155796 0.0704319 0.00919493 -0.020912 -0.0262418 
+run time: 55.486221 seconds
+
+levels: 1 2 3 
+the process of obtaining matrix K,A completed, run time: 43.381655 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  3, grid size: 9 * 17 * 33 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155785 0.0704167 0.00917828 -0.0209244 -0.0262458 
+run time: 50.932998 seconds
+
+levels: 1 3 2 
+the process of obtaining matrix K,A completed, run time: 43.244329 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  3  2, grid size: 9 * 33 * 17 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155778 0.0704068 0.0091679 -0.0209319 -0.0262478 
+run time: 51.049003 seconds
+
+levels: 1 4 1 
+the process of obtaining matrix K,A completed, run time: 45.300559 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 6
+levels:  1  4  1, grid size: 9 * 65 * 9 = 5265
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.15577 0.0703973 0.00915842 -0.0209395 -0.0262521 
+run time: 55.389052 seconds
+
+levels: 1 5 0 
+the process of obtaining matrix K,A completed, run time: 48.580099 s
+Time: 40 ;Iterations: 10
+Time: 80 ;Iterations: 10
+Time: 120 ;Iterations: 9
+Time: 160 ;Iterations: 9
+Time: 200 ;Iterations: 9
+levels:  1  5  0, grid size: 9 * 129 * 5 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155824 0.0704515 0.00921281 -0.0208852 -0.0261983 
+run time: 67.437382 seconds
+
+levels: 2 0 4 
+the process of obtaining matrix K,A completed, run time: 46.367306 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  0  4, grid size: 17 * 5 * 65 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172127 0.088685 0.0283405 0.00699554 0.00743204 
+run time: 60.521008 seconds
+
+levels: 2 1 3 
+the process of obtaining matrix K,A completed, run time: 43.696305 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  3, grid size: 17 * 9 * 33 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172109 0.089438 0.029473 0.00740198 0.00676235 
+run time: 50.678506 seconds
+
+levels: 2 2 2 
+the process of obtaining matrix K,A completed, run time: 43.086743 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  2  2, grid size: 17 * 17 * 17 = 4913
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172175 0.0893558 0.0292996 0.00731462 0.00681949 
+run time: 47.717114 seconds
+
+levels: 2 3 1 
+the process of obtaining matrix K,A completed, run time: 43.839081 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  3  1, grid size: 17 * 33 * 9 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172194 0.0893065 0.0292103 0.00727038 0.00684823 
+run time: 50.364779 seconds
+
+levels: 2 4 0 
+the process of obtaining matrix K,A completed, run time: 46.931820 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 7
+levels:  2  4  0, grid size: 17 * 65 * 5 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172262 0.0893574 0.029254 0.00734091 0.0069532 
+run time: 60.247748 seconds
+
+levels: 3 0 3 
+the process of obtaining matrix K,A completed, run time: 45.860072 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  3, grid size: 33 * 5 * 33 = 5445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170549 0.093482 0.0408148 0.0224494 0.0119412 
+run time: 58.229768 seconds
+
+levels: 3 1 2 
+the process of obtaining matrix K,A completed, run time: 43.692131 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  1  2, grid size: 33 * 9 * 17 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169506 0.0935808 0.0454904 0.0217021 0.010187 
+run time: 50.347601 seconds
+
+levels: 3 2 1 
+the process of obtaining matrix K,A completed, run time: 43.434458 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  2  1, grid size: 33 * 17 * 9 = 5049
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169744 0.0939624 0.0448643 0.0216362 0.0102808 
+run time: 50.312504 seconds
+
+levels: 3 3 0 
+the process of obtaining matrix K,A completed, run time: 46.659038 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  3  0, grid size: 33 * 33 * 5 = 5445
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169852 0.0940847 0.0448261 0.0217623 0.0104246 
+run time: 58.375345 seconds
+
+levels: 4 0 2 
+the process of obtaining matrix K,A completed, run time: 46.201267 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  0  2, grid size: 65 * 5 * 17 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170858 0.0945788 0.0442984 0.0248891 0.0128089 
+run time: 59.852696 seconds
+
+levels: 4 1 1 
+the process of obtaining matrix K,A completed, run time: 45.257123 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  1  1, grid size: 65 * 9 * 9 = 5265
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169323 0.0953154 0.0497991 0.0239784 0.011379 
+run time: 54.396156 seconds
+
+levels: 4 2 0 
+the process of obtaining matrix K,A completed, run time: 46.885230 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  2  0, grid size: 65 * 17 * 5 = 5525
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169359 0.0960307 0.0492505 0.0239969 0.0114654 
+run time: 60.029325 seconds
+
+levels: 5 0 1 
+the process of obtaining matrix K,A completed, run time: 48.254824 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  5  0  1, grid size: 129 * 5 * 9 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.171113 0.0948629 0.0457368 0.0251474 0.0131079 
+run time: 66.295304 seconds
+
+levels: 5 1 0 
+the process of obtaining matrix K,A completed, run time: 48.462290 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  5  1  0, grid size: 129 * 9 * 5 = 5805
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169506 0.0959886 0.0505571 0.0247849 0.0118434 
+run time: 65.988605 seconds
+
+levels: 6 0 0 
+the process of obtaining matrix K,A completed, run time: 52.511284 s
+Time: 40 ;Iterations: 10
+Time: 80 ;Iterations: 11
+Time: 120 ;Iterations: 11
+Time: 160 ;Iterations: 11
+Time: 200 ;Iterations: 11
+levels:  6  0  0, grid size: 257 * 5 * 5 = 6425
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.171221 0.0948294 0.047358 0.0253105 0.0132731 
+run time: 80.954457 seconds
+
+levels: 0 0 7 
+the process of obtaining matrix K,A completed, run time: 103.015019 s
+Time: 1 ;Iterations: 60
+Time: 2 ;Iterations: 60
+Time: 3 ;Iterations: 60
+Time: 40 ;Iterations: 36
+Time: 80 ;Iterations: 35
+Time: 120 ;Iterations: 33
+Time: 160 ;Iterations: 32
+Time: 200 ;Iterations: 30
+levels:  0  0  7, grid size: 5 * 5 * 513 = 12825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110926 0.0483528 -0.00451818 -0.0432972 -0.0655456 
+run time: 338.825916 seconds
+
+levels: 0 1 6 
+the process of obtaining matrix K,A completed, run time: 94.901999 s
+Time: 40 ;Iterations: 14
+Time: 80 ;Iterations: 13
+Time: 120 ;Iterations: 13
+Time: 160 ;Iterations: 13
+Time: 200 ;Iterations: 12
+levels:  0  1  6, grid size: 5 * 9 * 257 = 11565
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110943 0.048369 -0.00450403 -0.0432867 -0.0655408 
+run time: 273.432916 seconds
+
+levels: 0 2 5 
+the process of obtaining matrix K,A completed, run time: 90.879169 s
+Time: 40 ;Iterations: 8
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 7
+levels:  0  2  5, grid size: 5 * 17 * 129 = 10965
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110942 0.0483678 -0.00450507 -0.0432876 -0.0655414 
+run time: 244.266585 seconds
+
+levels: 0 3 4 
+the process of obtaining matrix K,A completed, run time: 88.985162 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  3  4, grid size: 5 * 33 * 65 = 10725
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483669 -0.00450591 -0.0432883 -0.0655418 
+run time: 234.264964 seconds
+
+levels: 0 4 3 
+the process of obtaining matrix K,A completed, run time: 89.713050 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  0  4  3, grid size: 5 * 65 * 33 = 10725
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110941 0.0483663 -0.00450643 -0.0432887 -0.0655421 
+run time: 234.558755 seconds
+
+levels: 0 5 2 
+the process of obtaining matrix K,A completed, run time: 91.958737 s
+Time: 40 ;Iterations: 9
+Time: 80 ;Iterations: 8
+Time: 120 ;Iterations: 8
+Time: 160 ;Iterations: 8
+Time: 200 ;Iterations: 8
+levels:  0  5  2, grid size: 5 * 129 * 17 = 10965
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.11094 0.0483659 -0.0045068 -0.043289 -0.0655423 
+run time: 247.335227 seconds
+
+levels: 0 6 1 
+the process of obtaining matrix K,A completed, run time: 94.415716 s
+Time: 40 ;Iterations: 22
+Time: 80 ;Iterations: 20
+Time: 120 ;Iterations: 19
+Time: 160 ;Iterations: 18
+Time: 200 ;Iterations: 18
+levels:  0  6  1, grid size: 5 * 257 * 9 = 11565
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110938 0.0483632 -0.00450958 -0.0432918 -0.065545 
+run time: 273.088235 seconds
+
+levels: 0 7 0 
+the process of obtaining matrix K,A completed, run time: 103.150850 s
+step 1, not converging, quit
+levels:  0  7  0, grid size: 5 * 513 * 5 = 12825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price:      0      0      0      0      0 
+run time: 2.415754 seconds
+
+levels: 1 0 6 
+the process of obtaining matrix K,A completed, run time: 93.646956 s
+Time: 40 ;Iterations: 15
+Time: 80 ;Iterations: 15
+Time: 120 ;Iterations: 15
+Time: 160 ;Iterations: 15
+Time: 200 ;Iterations: 14
+levels:  1  0  6, grid size: 9 * 5 * 257 = 11565
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155698 0.0703121 0.00907817 -0.0209855 -0.0262403 
+run time: 275.423895 seconds
+
+levels: 1 1 5 
+the process of obtaining matrix K,A completed, run time: 88.172433 s
+Time: 40 ;Iterations: 9
+Time: 80 ;Iterations: 9
+Time: 120 ;Iterations: 8
+Time: 160 ;Iterations: 8
+Time: 200 ;Iterations: 8
+levels:  1  1  5, grid size: 9 * 9 * 129 = 10449
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155796 0.0704319 0.00919498 -0.0209119 -0.0262418 
+run time: 220.750184 seconds
+
+levels: 1 2 4 
+the process of obtaining matrix K,A completed, run time: 84.337535 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  2  4, grid size: 9 * 17 * 65 = 9945
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155785 0.0704166 0.00917842 -0.0209242 -0.0262455 
+run time: 200.103583 seconds
+
+levels: 1 3 3 
+the process of obtaining matrix K,A completed, run time: 83.754248 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  1  3  3, grid size: 9 * 33 * 33 = 9801
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155778 0.0704068 0.00916785 -0.0209319 -0.0262478 
+run time: 193.900084 seconds
+
+levels: 1 4 2 
+the process of obtaining matrix K,A completed, run time: 83.429913 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 6
+levels:  1  4  2, grid size: 9 * 65 * 17 = 9945
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155774 0.0704011 0.00916213 -0.0209359 -0.0262487 
+run time: 196.496440 seconds
+
+levels: 1 5 1 
+the process of obtaining matrix K,A completed, run time: 86.379614 s
+Time: 40 ;Iterations: 10
+Time: 80 ;Iterations: 10
+Time: 120 ;Iterations: 9
+Time: 160 ;Iterations: 9
+Time: 200 ;Iterations: 9
+levels:  1  5  1, grid size: 9 * 129 * 9 = 10449
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155768 0.0703945 0.00915547 -0.0209416 -0.0262526 
+run time: 219.989990 seconds
+
+levels: 1 6 0 
+the process of obtaining matrix K,A completed, run time: 94.471595 s
+Time: 40 ;Iterations: 26
+Time: 80 ;Iterations: 25
+Time: 120 ;Iterations: 25
+Time: 160 ;Iterations: 24
+Time: 200 ;Iterations: 24
+levels:  1  6  0, grid size: 9 * 257 * 5 = 11565
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.155823 0.0704501 0.00921133 -0.0208863 -0.0261985 
+run time: 282.192014 seconds
+
+levels: 2 0 5 
+the process of obtaining matrix K,A completed, run time: 89.878663 s
+Time: 40 ;Iterations: 9
+Time: 80 ;Iterations: 9
+Time: 120 ;Iterations: 8
+Time: 160 ;Iterations: 8
+Time: 200 ;Iterations: 8
+levels:  2  0  5, grid size: 17 * 5 * 129 = 10965
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172127 0.088685 0.0283406 0.00699568 0.00743214 
+run time: 242.087784 seconds
+
+levels: 2 1 4 
+the process of obtaining matrix K,A completed, run time: 84.807500 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  1  4, grid size: 17 * 9 * 65 = 9945
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172108 0.089438 0.0294737 0.00740267 0.00676278 
+run time: 196.502629 seconds
+
+levels: 2 2 3 
+the process of obtaining matrix K,A completed, run time: 82.072013 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  2  3, grid size: 17 * 17 * 33 = 9537
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172175 0.0893557 0.0292997 0.00731464 0.00681947 
+run time: 186.114586 seconds
+
+levels: 2 3 2 
+the process of obtaining matrix K,A completed, run time: 84.115551 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  2  3  2, grid size: 17 * 33 * 17 = 9537
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172198 0.0893114 0.0292159 0.00727574 0.00685298 
+run time: 189.470600 seconds
+
+levels: 2 4 1 
+the process of obtaining matrix K,A completed, run time: 86.070757 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 7
+levels:  2  4  1, grid size: 17 * 65 * 9 = 9945
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172204 0.089281 0.029165 0.00725062 0.00686875 
+run time: 204.789063 seconds
+
+levels: 2 5 0 
+the process of obtaining matrix K,A completed, run time: 94.002675 s
+Time: 40 ;Iterations: 10
+Time: 80 ;Iterations: 10
+Time: 120 ;Iterations: 10
+Time: 160 ;Iterations: 9
+Time: 200 ;Iterations: 9
+levels:  2  5  0, grid size: 17 * 129 * 5 = 10965
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.172268 0.0893444 0.0292306 0.00733066 0.00696372 
+run time: 250.013658 seconds
+
+levels: 3 0 4 
+the process of obtaining matrix K,A completed, run time: 90.462494 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  0  4, grid size: 33 * 5 * 65 = 10725
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170548 0.0934818 0.0408152 0.02245 0.0119416 
+run time: 235.124424 seconds
+
+levels: 3 1 3 
+the process of obtaining matrix K,A completed, run time: 84.748031 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  1  3, grid size: 33 * 9 * 33 = 9801
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169506 0.0935807 0.0454904 0.0217021 0.010187 
+run time: 201.510989 seconds
+
+levels: 3 2 2 
+the process of obtaining matrix K,A completed, run time: 83.646923 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  2  2, grid size: 33 * 17 * 17 = 9537
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169747 0.0939679 0.0448717 0.0216433 0.0102864 
+run time: 187.256987 seconds
+
+levels: 3 3 1 
+the process of obtaining matrix K,A completed, run time: 84.537032 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  3  3  1, grid size: 33 * 33 * 9 = 9801
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169812 0.094001 0.0446968 0.0216311 0.0103221 
+run time: 197.743548 seconds
+
+levels: 3 4 0 
+the process of obtaining matrix K,A completed, run time: 90.936487 s
+Time: 40 ;Iterations: 7
+Time: 80 ;Iterations: 7
+Time: 120 ;Iterations: 7
+Time: 160 ;Iterations: 7
+Time: 200 ;Iterations: 7
+levels:  3  4  0, grid size: 33 * 65 * 5 = 10725
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169883 0.0940929 0.0447357 0.0217688 0.0104528 
+run time: 233.557340 seconds
+
+levels: 4 0 3 
+the process of obtaining matrix K,A completed, run time: 89.213679 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  0  3, grid size: 65 * 5 * 33 = 10725
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.170858 0.0945788 0.0442981 0.0248891 0.0128089 
+run time: 230.799375 seconds
+
+levels: 4 1 2 
+the process of obtaining matrix K,A completed, run time: 83.696932 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  1  2, grid size: 65 * 9 * 17 = 9945
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169325 0.0953216 0.0498076 0.0239857 0.0113847 
+run time: 195.500898 seconds
+
+levels: 4 2 1 
+the process of obtaining matrix K,A completed, run time: 83.817430 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  2  1, grid size: 65 * 17 * 9 = 9945
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169342 0.0959346 0.049098 0.0238551 0.0113645 
+run time: 195.015123 seconds
+
+levels: 4 3 0 
+the process of obtaining matrix K,A completed, run time: 88.674401 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  4  3  0, grid size: 65 * 33 * 5 = 10725
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169423 0.09606 0.0491888 0.0239731 0.0114715 
+run time: 224.800280 seconds
+
+levels: 5 0 2 
+the process of obtaining matrix K,A completed, run time: 89.806231 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  5  0  2, grid size: 129 * 5 * 17 = 10965
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.171115 0.0948648 0.0457624 0.0251517 0.0131121 
+run time: 234.582763 seconds
+
+levels: 5 1 1 
+the process of obtaining matrix K,A completed, run time: 86.476689 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  5  1  1, grid size: 129 * 9 * 9 = 10449
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169511 0.0958682 0.0504568 0.0246482 0.0117444 
+run time: 217.520376 seconds
+
+levels: 5 2 0 
+the process of obtaining matrix K,A completed, run time: 92.147941 s
+Time: 40 ;Iterations: 6
+Time: 80 ;Iterations: 6
+Time: 120 ;Iterations: 6
+Time: 160 ;Iterations: 6
+Time: 200 ;Iterations: 6
+levels:  5  2  0, grid size: 129 * 17 * 5 = 10965
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169457 0.0966582 0.0501351 0.0245876 0.0117759 
+run time: 236.069127 seconds
+
+levels: 6 0 1 
+the process of obtaining matrix K,A completed, run time: 93.985675 s
+Time: 40 ;Iterations: 10
+Time: 80 ;Iterations: 11
+Time: 120 ;Iterations: 11
+Time: 160 ;Iterations: 11
+Time: 200 ;Iterations: 11
+levels:  6  0  1, grid size: 257 * 5 * 9 = 11565
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.171206 0.0949236 0.0467766 0.0252136 0.0131988 
+run time: 264.776525 seconds
+
+levels: 6 1 0 
+the process of obtaining matrix K,A completed, run time: 94.258570 s
+Time: 40 ;Iterations: 10
+Time: 80 ;Iterations: 11
+Time: 120 ;Iterations: 11
+Time: 160 ;Iterations: 11
+Time: 200 ;Iterations: 11
+levels:  6  1  0, grid size: 257 * 9 * 5 = 11565
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.169582 0.0961288 0.0504549 0.024965 0.0119498 
+run time: 273.574516 seconds
+
+levels: 7 0 0 
+the process of obtaining matrix K,A completed, run time: 102.520371 s
+Time: 40 ;Iterations: 27
+Time: 80 ;Iterations: 27
+Time: 120 ;Iterations: 27
+Time: 160 ;Iterations: 26
+Time: 200 ;Iterations: 24
+levels:  7  0  0, grid size: 513 * 5 * 5 = 12825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.171261 0.0948215 0.0469572 0.0253436 0.0133025 
+run time: 333.298715 seconds
+
+The estimated Option price: 5.86922 4.83523 5.38242 6.79046 7.73742 
+              Benchmark   : 16.9512 9.6856 5.0227 2.4618 1.1774 
+          Total time spent: 1.546323e+04 s 
+>> [result,est,conds] = main([0.8,1.1],200,'level',[0 7 0]);
+the process of obtaining matrix K,A completed, run time: 110.443287 s
+step 1, not converging, quit
+levels:  0  7  0, grid size: 5 * 513 * 5 = 12825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    1.1 
+Estid Option Price:      0      0 
+run time: 2.558926 seconds
+
+>> [result,est,conds] = main([0.8,1.1],500,'level',[0 7 0]);
+the process of obtaining matrix K,A completed, run time: 109.546297 s
+Time: 100 ;Iterations: 25
+Time: 200 ;Iterations: 23
+Time: 300 ;Iterations: 21
+Time: 400 ;Iterations: 19
+Time: 500 ;Iterations: 19
+levels:  0  7  0, grid size: 5 * 513 * 5 = 12825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    1.1 
+Estid Option Price: 0.110976 -0.043251 
+run time: 908.137877 seconds
+
+>> [result,est,conds] = main([0.8,1.1],200,'level',[0 7 0],'w',1.8);
+the process of obtaining matrix K,A completed, run time: 110.396376 s
+Time: 40 ;Iterations: 39
+Time: 80 ;Iterations: 37
+Time: 120 ;Iterations: 35
+Time: 160 ;Iterations: 35
+Time: 200 ;Iterations: 35
+levels:  0  7  0, grid size: 5 * 513 * 5 = 12825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    1.1 
+Estid Option Price: 0.110976 -0.043251 
+run time: 395.782035 seconds
+
+>> [result,est,conds] = main([0.8,0.9,1,1.1,1.2],200,'level',[0 7 0],'w',1.8);
+the process of obtaining matrix K,A completed, run time: 102.432361 s
+Time: 40 ;Iterations: 39
+Time: 80 ;Iterations: 37
+Time: 120 ;Iterations: 35
+Time: 160 ;Iterations: 35
+Time: 200 ;Iterations: 35
+levels:  0  7  0, grid size: 5 * 513 * 5 = 12825
+Variance: 0.04 Interest: 0.04
+Input Stock  Price:    0.8    0.9      1    1.1    1.2 
+Estid Option Price: 0.110976 0.0484027 -0.00446916 -0.043251 -0.0655046 
+run time: 338.007637 seconds
+
+>> 
